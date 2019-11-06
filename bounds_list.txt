@@ -1,0 +1,25 @@
+# Bound, colour, linestyle, x, y, rotation
+#PTA-Shapiro	r	--	1e-6	0.5	0
+#Leo-I	g	1e3	1e-4	-70
+#LIGO-O2-SGWB	r	1	1e-2	0
+#Radio	b	-	4e1	3e-1	0
+#CMB	b	-	8e2	2e-3	-82
+#ERI-II	g	-	2e3	2.5e-2	-72
+#EROS	b	-	1e-2	8e-2	0
+#OGLE	b	-	0.6e-3	2e-1	0
+#evap	b	-	5e-18	3e-2	85
+#FL	b	-	5e-16	2.5e-1	0
+#HSC	b	-	2e-10	8e-3	0
+#K	b	-	1e-8	4e-1	0	
+#M	b	-	3	5e-1	0
+#NS	y	-	2e-13	1.5e-2	0
+#SNe	y	-	3e-2	6e-1	0
+#WD	y	-	1e-14	1.5e-1	0
+LIGO	r	-	6e1	4e-3	0
+LIGO-SGWB	r	-	10	2e-2	-60
+NANOGrav	r	-	2e-2	1e-2	0
+GW-Lensing	r	--	1e3	2e-1	-70
+PTA-Doppler	r	--	1e-8	9e-2	0
+PBH-EMRIs	r	--	2e-6	0.3	-76
+
+
