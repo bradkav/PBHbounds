@@ -32,8 +32,8 @@ mpl.rcParams['legend.edgecolor'] = 'inherit'
 plot_SGWB_range = True
 
 #Default values, overridden if you pass in command line arguments
-boundsfile_default = "bounds_list.txt" 
-outfile_default = "plots/PBH_bounds.pdf"
+boundsfile_default = "list_all.txt" 
+outfile_default = "PBH_bounds.pdf"
 
 #Load in the filename with the list of bounds and the output filename
 parser = argparse.ArgumentParser(description='...')
@@ -43,8 +43,8 @@ parser.add_argument('-of','--outfile', help='Filename (with extension) of output
                     type=str, default=outfile_default)
 
 args = parser.parse_args()
-boundsfile = args.boundsfile
-outfile = args.outfile
+boundsfile = "listfiles/" + args.boundsfile
+outfile = "plots/" + args.outfile
 
 bounds = np.loadtxt(boundsfile, usecols=(0,), dtype=str)
 colors = np.loadtxt(boundsfile, usecols=(1,), dtype=str)
