@@ -1,0 +1,18 @@
+# Bound, colour, linestyle, x, y, rotation
+#Leo-I	g	-	1e3	1e-4	-70
+#FL	y	-	5e-16	2.5e-1	0
+Radio	b	-	5e1	8e-2	-90
+CMB	b	-	1e3	2e-3	-82
+UFdwarfs	b	-	2e3	2.5e-2	-72
+OGLE	b	-	0.6e-3	2e-1	0
+evap	b	-	5e-18	3e-2	85
+K	b	-	1e-8	4e-1	0	
+NS	y	-	2.5e-14	6e-2	0
+SNe	y	-	3e-2	6e-1	0
+WD	y	-	2e-14	0.5	0
+M	b	-	3	5e-1	0
+HSC	b	-	1e-9	1e-2	0
+EROS	b	-	1e-2	8e-2	0
+OGLE?	k	:	1e-5	2.2e-2	-75
+
+
