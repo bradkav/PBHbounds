@@ -3,16 +3,16 @@
 Check each individual file to find out precisely which constraint I'm using.
 
 - **CMB**: [arXiv:1612.05644](https://arxiv.org/abs/1612.05644) 
-- **EROS**: [astro-ph/0607207](https://arxiv.org/abs/astro-ph/0607207)  
-- **evap**: [arXiv:0912.5297](https://arxiv.org/abs/0912.5297)  
+- **EROS**: Microlensing constraints from EROS [astro-ph/0607207](https://arxiv.org/abs/astro-ph/0607207)  
+- **evap**: Constraints from PBH evaporation (mostly extragalactic gamma-rays) [arXiv:0912.5297](https://arxiv.org/abs/0912.5297)  
 - **FL**:  [arXiv:1204.2056](https://arxiv.org/abs/1204.2056)  
 - **GW-lensing**: [arXiv:1712.01396](https://arxiv.org/abs/1712.01396)  
-- **HSC**: [arXiv:1701.02151](https://arxiv.org/abs/1701.02151)  
-- **K**: [arXiv:1307.5798](https://arxiv.org/abs/1307.5798)  
+- **HSC**: Microlensing constraints from the Hyper-Supreme Cam [arXiv:1701.02151](https://arxiv.org/abs/1701.02151)  
+- **K**: Microlensing constraints from Kepler [arXiv:1307.5798](https://arxiv.org/abs/1307.5798)  
 - **Leo-I**: [arXiv:1906.10463](https://arxiv.org/abs/1906.10463)  
 - **LIGO-SGWB**: [arXiv:1904.02396](https://arxiv.org/abs/1904.02396)  
 - **LIGO**: [arXiv:1805.09034](https://arxiv.org/abs/1805.09034) and [arXiv:1808.04771](https://arxiv.org/abs/1808.04771)  
-- **M**: [astro-ph/0011506](https://arxiv.org/abs/astro-ph/0011506)  
+- **M**: Microlensing constraints from MACHO [astro-ph/0011506](https://arxiv.org/abs/astro-ph/0011506)  
 - **Microlensing**: envelope of EROS, HSC, K and M  
 - **NANOGrav**: [arXiv:1910.12239](https://arxiv.org/abs/1910.12239)
 - **NS**: [arXiv:1301.4984](https://arxiv.org/abs/1301.4984)  
