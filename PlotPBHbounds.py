@@ -32,8 +32,8 @@ mpl.rcParams['legend.edgecolor'] = 'inherit'
 plot_SGWB_range = True
 
 #Default values, overridden if you pass in command line arguments
-listfile_default = "list_all.txt" 
-outfile_default = "PBH_bounds.pdf"
+listfile_default = "listfiles/bounds_all.txt" 
+outfile_default = "plots/PBH_bounds.pdf"
 
 #Load in the filename with the list of bounds and the output filename
 parser = argparse.ArgumentParser(description='...')
@@ -43,15 +43,15 @@ parser.add_argument('-of','--outfile', help='Filename (with extension) of output
                     type=str, default=outfile_default)
 
 args = parser.parse_args()
-listfile = "listfiles/" + args.boundsfile
-outfile = "plots/" + args.outfile
+listfile = args.listfile
+outfile = args.outfile
 
-bounds = np.loadtxt(boundsfile, usecols=(0,), dtype=str)
-colors = np.loadtxt(boundsfile, usecols=(1,), dtype=str)
-lines = np.loadtxt(boundsfile, usecols=(2,), dtype=str)
-xlist = np.loadtxt(boundsfile, usecols=(3,))
-ylist = np.loadtxt(boundsfile, usecols=(4,))
-anglist = np.loadtxt(boundsfile, usecols=(5,))
+bounds = np.loadtxt(listfile, usecols=(0,), dtype=str)
+colors = np.loadtxt(listfile, usecols=(1,), dtype=str)
+lines = np.loadtxt(listfile, usecols=(2,), dtype=str)
+xlist = np.loadtxt(listfile, usecols=(3,))
+ylist = np.loadtxt(listfile, usecols=(4,))
+anglist = np.loadtxt(listfile, usecols=(5,))
 
 
 def addConstraint(boundID, col='blue',x = 1e-30,y=1e-4,ang=0, linestyle='-'):
