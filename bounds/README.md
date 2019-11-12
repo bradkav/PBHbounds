@@ -11,7 +11,7 @@ Check each individual file to find out precisely which constraint I'm using. Pro
 - **K**: Microlensing constraints from Kepler - [arXiv:1307.5798](https://arxiv.org/abs/1307.5798)  
 - **Leo-I**: Dynamics of Leo-I -  [arXiv:1906.10463](https://arxiv.org/abs/1906.10463)  
 - **LIGO-SGWB**: Stochastic BG of PBH mergers with LIGO - [arXiv:1904.02396](https://arxiv.org/abs/1904.02396)  
-- **LIGO**: Direct constraints on PBH-PBH mergers with LIGO - [arXiv:1805.09034](https://arxiv.org/abs/1805.09034) and [arXiv:1808.04771](https://arxiv.org/abs/1808.04771)  
+- **LIGO**: Direct constraints on PBH-PBH mergers with LIGO - [arXiv:1805.09034](https://arxiv.org/abs/1805.09034) and [arXiv:1904.08976](https://arxiv.org/abs/1904.08976)  
 - **M**: Microlensing constraints from MACHO - [astro-ph/0011506](https://arxiv.org/abs/astro-ph/0011506)  
 - **Microlensing**: envelope of EROS, HSC, K and M  
 - **NANOGrav**: Scalar-induced GWs with NANOGrav - [arXiv:1910.12239](https://arxiv.org/abs/1910.12239)

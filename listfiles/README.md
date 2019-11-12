@@ -7,4 +7,4 @@ The different columns are:
 
 `colour` and `linestyle` specify the properties of the plotted region, while `x`, `y` and `rotation` specify the position and orientation of the label.
 
-The list of `BoundID`s is [here](https://github.com/bradkav/PBHbounds/tree/master/bounds). An example list file is given in (bounds_all.txt)[bounds_all.txt], which has all the currently included bounds.
+The list of `BoundID`s is [here](https://github.com/bradkav/PBHbounds/tree/master/bounds). An example list file is given in (bounds_all.txt)[https://github.com/bradkav/PBHbounds/tree/master/listfiles/bounds_all.txt], which has all the currently included bounds.
