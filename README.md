@@ -9,7 +9,7 @@
 
 ### Bounds
 
-The list of available, tabulated bounds is in the [bounds/](bounds/) folder. The fact that I've included or omitted a particular bound shouldn't be taken as an endorsement or otherwise. I'll leave the user to exercise their own judgement when choosing which bounds are relevant.
+The list of available, tabulated bounds is in the [bounds/](bounds/) folder. The fact that I've included or omitted a particular bound shouldn't be taken as an endorsement or otherwise. I'll leave the user to exercise their own judgement when choosing which bounds are relevant. Note also that some of the bounds plotted above as dashed lines are projections.
 
 If you'd like to add a bound to the repo, you can submit a pull request, create an issue or just contact me directly.
 
