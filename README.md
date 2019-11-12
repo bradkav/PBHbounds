@@ -1,6 +1,8 @@
 ## PBHbounds
 
-**A collection of bounds on primordial black holes (PBHs) and code for plotting them.**
+[![DOI](https://zenodo.org/badge/220053456.svg)](https://zenodo.org/badge/latestdoi/220053456) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+*A collection of bounds on primordial black holes (PBHs) and code for plotting them.*
 
  ![Messy summary of all PBH bounds](plots/PBH_bounds.png)
 
@@ -29,4 +31,4 @@ The plot style and some of the bounds are inspired by [arXiv:1801.00808](https:/
 
 ### Citation
 
-Feel free to use the bounds and code for anything you like, but please link to the repo if you do and cite the DOI.
+Feel free to use the bounds and code for anything you like, but please link to the repo if you do and cite the DOI: [10.5281/zenodo.3538999](https://doi.org/10.5281/zenodo.3538999).
