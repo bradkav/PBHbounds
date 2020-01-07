@@ -2,7 +2,8 @@
 
 Check each individual file to find out precisely which constraint I'm using. Projected constraints are marked with a dagger (†).
 
-- **CMB**: Constraints from modification of the CMB spectrum due to accreting PBHs - [arXiv:1612.05644](https://arxiv.org/abs/1612.05644) 
+- **511keV**: Constraints on PBH evaporation from the 511 keV gamma ray line - [arXiv:1906.09994](https://arxiv.org/abs/1906.09994) and [arXiv:1906.07740](https://arxiv.org/abs/1906.07740)  
+- **CMB**: Constraints from modification of the CMB spectrum due to accreting PBHs - [arXiv:1612.05644](https://arxiv.org/abs/1612.05644)  
 - **EROS**: Microlensing constraints from EROS - [astro-ph/0607207](https://arxiv.org/abs/astro-ph/0607207)  
 - **evap**: Constraints from PBH evaporation (mostly extragalactic gamma-rays) - [arXiv:0912.5297](https://arxiv.org/abs/0912.5297)  
 - **FL**: Femto-lensing of gamma-ray bursts - [arXiv:1204.2056](https://arxiv.org/abs/1204.2056)  

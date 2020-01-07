@@ -29,6 +29,9 @@ The plot style and some of the bounds are inspired by [arXiv:1801.00808](https:/
 
 **Version 1.0 (12/11/2019):** Release version. Created for the first [GW4FP workshop](https://indico.cern.ch/event/843270/) (Amsterdam 2019).
 
+**Updates:** 
+- 07/01/2020: added bounds on PBH evaporation from 511 keV gamma ray line
+
 ### Citation
 
 Feel free to use the bounds and code for anything you like, but please link to the repo if you do and cite the DOI: [10.5281/zenodo.3538999](https://doi.org/10.5281/zenodo.3538999).
