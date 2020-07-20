@@ -2,16 +2,16 @@
 #Leo-I	g	-	1e3	1e-4	-70
 #FL	y	-	5e-16	2.5e-1	0
 Radio	b	-	5e1	8e-2	-90
-CMB	b	-	1e3	2e-3	-82
+CMB	b	-	1e2	2e-3	-82
 UFdwarfs	b	-	2e3	2.5e-2	-72
 OGLE	b	-	0.6e-3	2e-1	0
-evap	b	-	5e-18	3e-2	85
+EGRB	b	-	5e-18	3e-2	85
 K	b	-	1e-8	4e-1	0	
 NS	y	-	2.5e-14	6e-2	0
 SNe-Lensing	y	-	3e-2	6e-1	0
 WD	y	-	2e-14	0.5	0
 M	b	-	3	5e-1	0
-HSC	b	-	1e-9	1e-2	0
+HSC	b	-	5e-9	5e-2	0
 PTA-Doppler	b	--	1e-8	9e-2	0
 PTA-Shapiro	b	--	1e-3	0.8	0
 EROS	b	-	1e-2	8e-2	0
@@ -23,5 +23,13 @@ PBH-EMRIs	r	--	2e-6	0.3	-76
 SIGWs	r	--	0	0	0
 OGLE?	k	:	1e-5	2.2e-2	-75
 511keV  b	-	2e-17	3e-1	85
-
-
+Icarus  b	-	1e1	2e-1	0
+EDGES	b	- 	1e3	4e-3	-75
+WideBinaries	b	-	2e2	3e-1	0
+CMBevap	b	-	5e-18	5e-2	85
+EDGESevap	b	-	5e-18	5e-2	85
+Voyager	b	-	5e-18	5e-2	85
+INTEGRAL	b	-	5e-18	5e-2	85
+evap	k	-	5e-18	5e-2	85
+Microlensing	k	-	1e-9	4e-3	0
+X-ray

@@ -5,7 +5,7 @@ import argparse
 
 
 #Specify the plot style
-mpl.rcParams.update({'font.size': 16,'font.family':'serif'})
+mpl.rcParams.update({'font.size': 14,'font.family':'serif'})
 mpl.rcParams['xtick.major.size'] = 7
 mpl.rcParams['xtick.major.width'] = 1
 mpl.rcParams['xtick.minor.size'] = 3.5
@@ -32,8 +32,8 @@ mpl.rcParams['legend.edgecolor'] = 'inherit'
 plot_SGWB_range = True
 
 #Default values, overridden if you pass in command line arguments
-listfile_default = "listfiles/bounds_all.txt" 
-outfile_default = "plots/PBH_bounds.pdf"
+listfile_default = "listfiles/bounds_accretion.txt" 
+outfile_default = "plots/PBHbounds_accretion_square.pdf"
 
 #Load in the filename with the list of bounds and the output filename
 parser = argparse.ArgumentParser(description='...')
@@ -52,9 +52,10 @@ lines = np.loadtxt(listfile, usecols=(2,), dtype=str)
 xlist = np.loadtxt(listfile, usecols=(3,))
 ylist = np.loadtxt(listfile, usecols=(4,))
 anglist = np.loadtxt(listfile, usecols=(5,))
+labellist = np.loadtxt(listfile, usecols=(6,), dtype=str)
 
 
-def addConstraint(boundID, col='blue',x = 1e-30,y=1e-4,ang=0, linestyle='-'):
+def addConstraint(boundID, col='blue',x = 1e-30,y=1e-4,ang=0, linestyle='-', labeltext=''):
     m, f = np.loadtxt('bounds/' + boundID + '.txt', unpack=True)
     if (boundID != "OGLE?"):
         plt.fill_between(m , np.clip(f, 0,1), 1, alpha=0.15, color=col)
@@ -64,7 +65,7 @@ def addConstraint(boundID, col='blue',x = 1e-30,y=1e-4,ang=0, linestyle='-'):
     plt.plot(m, np.clip(f, 0,1), color=col, lw=linewidth, linestyle=linestyle)
     
     if (x > 1e-20):
-        plt.text(x, y, boundID, rotation=ang, fontsize=12, ha='center', va='center')
+        plt.text(x, y, labeltext.replace("_", " "), rotation=ang, fontsize=12, ha='center', va='center')
 
 def addSIGWprojections(col='red', linestyle='--'):
     plt.fill_between([6.6e-14, 6.6e-12], 5e-3, 1, color=col, alpha = 0.15, linewidth=0)
@@ -84,7 +85,7 @@ def addSIGWprojections(col='red', linestyle='--'):
 
 #-------------------------------------------    
     
-plt.figure(figsize=(8,5))
+plt.figure(figsize=(5,5))
 
 ax = plt.gca()
 ax.set_xscale('log')
@@ -96,17 +97,23 @@ for i in range(len(bounds)):
     if (bounds[i] == "SIGWs"):
         addSIGWprojections(col=colors[i], linestyle=lines[i])
     else:
-        addConstraint(bounds[i], col = colors[i], x = xlist[i], y = ylist[i], ang=anglist[i], linestyle=lines[i])
+        addConstraint(bounds[i], col = colors[i], x = xlist[i], y = ylist[i], ang=anglist[i], linestyle=lines[i], labeltext=labellist[i])
 
 
 
 #Plotting stuff
 plt.axhspan(1, 1.5, facecolor='grey', alpha=0.5)
     
-plt.ylim(1e-3, 1.5)
-plt.xlim(1e-18, 1e4)
-    
-ax.set_xticks(np.logspace(-18, 4, 23),minor=True)
+plt.ylim(1e-4, 1.5)
+
+xmin = 1
+xmax = 1e3
+plt.xlim(xmin, xmax)
+
+ticks_minor = np.geomspace(1e-18, 1e4, 23)
+ticks_minor = ticks_minor[(xmin <= ticks_minor) & (ticks_minor <= xmax)]
+#print(ticks_minor)
+ax.set_xticks(ticks_minor,minor=True)
 ax.set_xticklabels([], minor=True)
     
 ax.set_xlabel(r'$M_\mathrm{PBH}$ [$M_\odot$]')
@@ -118,9 +125,12 @@ ax_top.set_xscale('log')
 ax_top.set_xlim(ax.get_xlim())
 ax_top.set_xlabel(r'$M_\mathrm{PBH}$ [g]', labelpad=7)
 
-g_ticks_minor = np.geomspace(1e15, 1e37, 23)
-g_ticks = g_ticks_minor[::3]
 g_to_Msun = 1/1.989e+33
+
+g_ticks_minor = np.geomspace(1e15, 1e37, 23)
+g_ticks_minor = g_ticks_minor[(xmin <= g_to_Msun*g_ticks_minor) & (g_to_Msun*g_ticks_minor <= xmax)]
+g_ticks = g_ticks_minor
+
 
 g_tick_labels = [r"$10^{" + str(int(np.log10(x))) +"}$" for x in g_ticks]
 
@@ -131,6 +141,7 @@ ax_top.xaxis.set_tick_params(pad=0)
 ax_top.set_xticks(g_ticks_minor*g_to_Msun,minor=True)
 ax_top.set_xticklabels([],minor=True)
 
+ax.text(0.45, 0.05, "Accretion", va = "bottom", ha = "center", color='C3',  transform=ax.transAxes, fontsize=16)
 
 plt.savefig(outfile, bbox_inches='tight')
     

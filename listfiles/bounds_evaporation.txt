@@ -1,0 +1,7 @@
+# Bound, colour, linestyle, x, y, rotation
+EGRB	C1	-	1.55e-17	1.2e-2	62	EGRB
+511keV  C1	-	7.5e-18	1.1e-2	35	511_keV
+CMBevap	C1	-	2.5e-17	2.5e-1	58	CMB
+EDGESevap	C1	-	2e-17	5e-3	55	EDGES_21cm
+Voyager	C1	-	1.5e-17	5e-1	70	Voyager_I
+INTEGRAL	C1	-	5.5e-17	2.5e-1	60	MeV_diffuse

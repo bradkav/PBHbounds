@@ -1,0 +1,6 @@
+# Bound, colour, linestyle, x, y, rotation
+Radio	C3	-	30	6e-4	-60	Radio
+CMB	C3	-	70	1e-3	-80	CMB
+EDGES	C3	- 	330	4e-3	-57	EDGES_21cm
+X-ray	C3	- 	64	4.5e-3	20	X-ray
+LeoT	C3	-	10	8e-2	-37	Dwarf_galaxy_heating

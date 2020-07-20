@@ -1,0 +1,3 @@
+# Bound, colour, linestyle, x, y, rotation
+WideBinaries	C2	-	5e2	3e-1	0	Wide_binaries
+UFdwarfs	C2	-	2e3	2.5e-2	-55	Dwarf_galaxies

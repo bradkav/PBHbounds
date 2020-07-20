@@ -30,6 +30,7 @@ The plot style and some of the bounds are inspired by [arXiv:1801.00808](https:/
 **Version 1.0 (12/11/2019):** Release version. Created for the first [GW4FP workshop](https://indico.cern.ch/event/843270/) (Amsterdam 2019).
 
 **Updates:** 
+- 20/07/2020: Substantial updates, to coincide with PBH review article (more details to follow).
 - 07/01/2020: added bounds on PBH evaporation from 511 keV gamma ray line
 
 ### Citation

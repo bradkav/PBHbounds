@@ -29,11 +29,11 @@ mpl.rcParams['legend.edgecolor'] = 'inherit'
 # Bounds taken from 1801.00808
 
 #General options
-plot_SGWB_range = True
+#plot_SGWB_range = True
 
 #Default values, overridden if you pass in command line arguments
-listfile_default = "listfiles/bounds_all.txt" 
-outfile_default = "plots/PBH_bounds.pdf"
+listfile_default = "listfiles/bounds_review.txt" 
+outfile_default = "plots/PBHbounds_review.pdf"
 
 #Load in the filename with the list of bounds and the output filename
 parser = argparse.ArgumentParser(description='...')
@@ -59,12 +59,10 @@ def addConstraint(boundID, col='blue',x = 1e-30,y=1e-4,ang=0, linestyle='-'):
     if (boundID != "OGLE?"):
         plt.fill_between(m , np.clip(f, 0,1), 1, alpha=0.15, color=col)
     linewidth = 1.0
-    if (boundID in ["Microlensing", "Evaporation"]):
-        linewidth=2.0
     plt.plot(m, np.clip(f, 0,1), color=col, lw=linewidth, linestyle=linestyle)
     
     if (x > 1e-20):
-        plt.text(x, y, boundID, rotation=ang, fontsize=12, ha='center', va='center')
+        plt.text(x, y, boundID, rotation=ang, fontsize=12, ha='center', va='center', color=col)
 
 def addSIGWprojections(col='red', linestyle='--'):
     plt.fill_between([6.6e-14, 6.6e-12], 5e-3, 1, color=col, alpha = 0.15, linewidth=0)
@@ -103,7 +101,7 @@ for i in range(len(bounds)):
 #Plotting stuff
 plt.axhspan(1, 1.5, facecolor='grey', alpha=0.5)
     
-plt.ylim(1e-3, 1.5)
+plt.ylim(1e-4, 1.5)
 plt.xlim(1e-18, 1e4)
     
 ax.set_xticks(np.logspace(-18, 4, 23),minor=True)
