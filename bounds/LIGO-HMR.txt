@@ -1,0 +1,10 @@
+# Black curve from Fig 5. of https://arxiv.org/abs/2007.03583
+# data from https://github.com/gwastro/stellar-pbh-search
+0.01     3.7256
+0.03     2.3842e-01
+0.05     7.4799e-02
+0.10     3.0375e-02
+0.30     8.1303e-03
+0.50     5.5777e-03
+0.75     3.4464e-03
+1.00     2.8035e-03
