@@ -33,6 +33,7 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
 - **PTA-Shapiro†**: PBH-induced time delays in Pulsar Timing Arrays - [arXiv:1901.04490](https://arxiv.org/abs/1901.04490)  
 - **Radio**: Radio constraints on accreting PBHs in the Milky Way - [arXiv:1812.07967](https://arxiv.org/abs/1812.07967)  
 - **SNe-Lensing**: Lensing of supernovae by PBHs - [arXiv:1712.02240](https://arxiv.org/abs/1712.02240)  
+- **SuperK**: Bounds from evaporation into neutrinos from SuperKamiokande - [arXiv:1912.01014](https://arxiv.org/abs/1912.01014)  
 - **UFdwarfs**: Constraints from the disruption of ultra-faint dwarfs - [arXiv:1605.03665](https://arxiv.org/abs/1605.03665)  
 - **Voyager**: Constraints on PBH evaporation from electron/positron measurements by Voyager 1 probe - [arXiv:1807.03075](https://arxiv.org/abs/1807.03075)  
 - **WideBinaries**: Constraints from disruption of Wide Binaries - [arXiv:1406.5169](https://arxiv.org/abs/1406.5169)  
