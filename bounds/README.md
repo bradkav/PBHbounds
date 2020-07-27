@@ -1,6 +1,7 @@
 ### List of bounds
 
-Check each individual file to find out precisely which constraint I'm using. Projected constraints are marked with a dagger (†).
+Check each individual file to find out precisely which constraint I'm using.
+Constraints which are not *strictly* valid for monochromatic mass functions are marked with an asterisk (*). Projected constraints are marked with a dagger (†).
 
 - **511keV**: Constraints on PBH evaporation from the 511 keV gamma ray line - [arXiv:1906.09994](https://arxiv.org/abs/1906.09994) and [arXiv:1906.07740](https://arxiv.org/abs/1906.07740)  
 - **CMB**: Constraints from modification of the CMB spectrum due to accreting PBHs, including particle DM accretion - [arXiv:2002.10771](https://arxiv.org/abs/2002.10771)  
@@ -16,9 +17,10 @@ Check each individual file to find out precisely which constraint I'm using. Pro
 - **INTEGRAL**: Constaints from MeV background from evaporating PBHs - [arXiv:2004.00627](https://arxiv.org/abs/2004.00627)  
 - **K**: Microlensing constraints from Kepler - [arXiv:1307.5798](https://arxiv.org/abs/1307.5798)  
 - **Leo-I**: Dynamics of Leo-I -  [arXiv:1906.10463](https://arxiv.org/abs/1906.10463)  
-- **Leo-T**: Heating due to dynamic friction and accretion in Leo T - [arXiv:2007.02213](https://arxiv.org/abs/2007.02213) 
-- **LIGO-SGWB**: Stochastic BG of PBH mergers with LIGO - [arXiv:1904.02396](https://arxiv.org/abs/1904.02396)  
+- **Leo-T**: Heating due to dynamic friction and accretion in Leo T - [arXiv:2007.02213](https://arxiv.org/abs/2007.02213)  
 - **LIGO**: Direct constraints on PBH-PBH mergers with LIGO - [arXiv:1805.09034](https://arxiv.org/abs/1805.09034) and [arXiv:1904.08976](https://arxiv.org/abs/1904.08976)  
+- **LIGO-HMR***: Constraints on PBH-PBH mergers in which one component is ~37 solar mass and the other is sub-solar - [2007.03583](https://arxiv.org/abs/2007.03583)  
+- **LIGO-SGWB**: Stochastic BG of PBH mergers with LIGO - [arXiv:1904.02396](https://arxiv.org/abs/1904.02396)  
 - **M**: Microlensing constraints from MACHO - [astro-ph/0011506](https://arxiv.org/abs/astro-ph/0011506)  
 - **Microlensing**: envelope of EROS, HSC, K and M  
 - **NANOGrav**: Scalar-induced GWs with NANOGrav - [arXiv:1910.12239](https://arxiv.org/abs/1910.12239)
