@@ -2,9 +2,8 @@
 OGLE?	k	:	1e-5	2.2e-2	-75
 LIGO	r	-	1e1	2e-3	-75
 LIGO-SGWB	r	-	10	2e-2	-60
-NANOGrav	r	-	2e-2	1e-2	0
+NANOGrav	r	-	3e-2	2e-3	0
 GW-Lensing	r	--	1e3	2e-1	-70
 PBH-EMRIs	r	--	2e-6	0.3	-76
 SIGWs	r	--	0	0	0
-
-
+LIGO-HMR r - .5 .01 -75
