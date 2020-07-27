@@ -1,7 +1,7 @@
 ### List of bounds
 
 Check each individual file to find out precisely which constraint I'm using.
-Constraints which are not *strictly* valid for monochromatic mass functions are marked with an asterisk (*). Projected constraints are marked with a dagger (†).
+Constraints which are not *strictly* valid for monochromatic mass functions are marked with an asterisk (*). Projected constraints are marked with a dagger (†). Constraints which are now generally discredited are marked with a 'slashed zero' (ø).
 
 - **511keV**: Constraints on PBH evaporation from the 511 keV gamma ray line - [arXiv:1906.09994](https://arxiv.org/abs/1906.09994) and [arXiv:1906.07740](https://arxiv.org/abs/1906.07740)  
 - **CMB**: Constraints from modification of the CMB spectrum due to accreting PBHs, including particle DM accretion - [arXiv:2002.10771](https://arxiv.org/abs/2002.10771)  
@@ -19,12 +19,12 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
 - **Leo-I**: Dynamics of Leo-I -  [arXiv:1906.10463](https://arxiv.org/abs/1906.10463)  
 - **Leo-T**: Heating due to dynamic friction and accretion in Leo T - [arXiv:2007.02213](https://arxiv.org/abs/2007.02213)  
 - **LIGO**: Direct constraints on PBH-PBH mergers with LIGO - [arXiv:1805.09034](https://arxiv.org/abs/1805.09034) and [arXiv:1904.08976](https://arxiv.org/abs/1904.08976)  
-- **LIGO-HMR***: Constraints on PBH-PBH mergers in which one component is ~37 solar mass and the other is sub-solar - [2007.03583](https://arxiv.org/abs/2007.03583)  
+- **LIGO-HMR***: Constraints on PBH-PBH mergers in which one PBH is ~37 solar mass and the other is sub-solar - [2007.03583](https://arxiv.org/abs/2007.03583)  
 - **LIGO-SGWB**: Stochastic BG of PBH mergers with LIGO - [arXiv:1904.02396](https://arxiv.org/abs/1904.02396)  
 - **M**: Microlensing constraints from MACHO - [astro-ph/0011506](https://arxiv.org/abs/astro-ph/0011506)  
 - **Microlensing**: envelope of EROS, HSC, K and M  
 - **NANOGrav**: Scalar-induced GWs with NANOGrav - [arXiv:1910.12239](https://arxiv.org/abs/1910.12239)
-- **NS**: Neutron star capture and destruction - [arXiv:1301.4984](https://arxiv.org/abs/1301.4984)  
+- **NSø**: Neutron star capture and destruction - [arXiv:1301.4984](https://arxiv.org/abs/1301.4984)  
 - **OGLE?**: Hint for Earth mass PBHs with OGLE - [arXiv:1901.07120](https://arxiv.org/abs/1901.07120)
 - **OGLE**: Microlensing constraints from OGLE - [arXiv:1901.07120](https://arxiv.org/abs/1901.07120)  
 - **PBH-EMRIs†**: Extreme mass-ratio inspirals of PBHs around supermassive black holes - [arXiv:1910.07397](https://arxiv.org/abs/1910.07397)  
@@ -35,6 +35,6 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
 - **UFdwarfs**: Constraints from the disruption of ultra-faint dwarfs - [arXiv:1605.03665](https://arxiv.org/abs/1605.03665)  
 - **Voyager**: Constraints on PBH evaporation from electron/positron measurements by Voyager 1 probe - [arXiv:1807.03075](https://arxiv.org/abs/1807.03075)  
 - **WideBinaries**: Constraints from disruption of Wide Binaries - [arXiv:1406.5169](https://arxiv.org/abs/1406.5169)  
-- **WD**: Constraints from the destruction of White Dwarfs by PBHs - [arXiv:1505.04444](https://arxiv.org/abs/1505.04444)   
+- **WDø**: Constraints from the destruction of White Dwarfs by PBHs - [arXiv:1505.04444](https://arxiv.org/abs/1505.04444)   
 - **X-ray**: X-ray constraints on accreting PBHs in the Milky Way - [arXiv:1812.07967](https://arxiv.org/abs/1812.07967)  
 
