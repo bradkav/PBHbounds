@@ -12,7 +12,7 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
 - **EGRB**: Constraints on PBH evaporation from extragalactic gamma-rays - [arXiv:0912.5297](https://arxiv.org/abs/0912.5297)  
 - **FL**: Femto-lensing of gamma-ray bursts - [arXiv:1204.2056](https://arxiv.org/abs/1204.2056)  
 - **GW-lensing†**: Microlensing of GWs by PBHs - [arXiv:1712.01396](https://arxiv.org/abs/1712.01396)  
-- **HSC**: Microlensing constraints from the Hyper-Supreme Cam - [arXiv:1701.02151](https://arxiv.org/abs/1701.02151), updated in [arXiv:1910.01285](https://arxiv.org/abs/1910.01285) 
+- **HSC**: Microlensing constraints from the Hyper-Supreme Cam - [arXiv:1701.02151](https://arxiv.org/abs/1701.02151), updated in [arXiv:1910.01285](https://arxiv.org/abs/1910.01285) and then again in [arXiv:2007.12697](https://arxiv.org/abs/2007.12697) 
 - **Icarus**: Icarus microlensing event ('caustic crossing') - [arXiv:1710.00148](https://arxiv.org/abs/1710.00148)  
 - **INTEGRAL**: Constaints from MeV background from evaporating PBHs - [arXiv:2004.00627](https://arxiv.org/abs/2004.00627)  
 - **K**: Microlensing constraints from Kepler - [arXiv:1307.5798](https://arxiv.org/abs/1307.5798)  
@@ -20,7 +20,8 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
 - **Leo-T**: Heating due to dynamic friction and accretion in Leo T - [arXiv:2007.02213](https://arxiv.org/abs/2007.02213)  
 - **Leo-Tevap**: Heating due to evaporation in dwarf galaxy Leo T - [arXiv:2007.07739](https://arxiv.org/abs/2007.07739)  
 - **LIGO**: Direct constraints on PBH-PBH mergers with LIGO - [arXiv:1805.09034](https://arxiv.org/abs/1805.09034) and [arXiv:1904.08976](https://arxiv.org/abs/1904.08976)  
-- **LIGO-HMR***: Constraints on PBH-PBH mergers in which one PBH is ~37 solar mass and the other is sub-solar - [2007.03583](https://arxiv.org/abs/2007.03583)  
+- **LIGO-perturbed**: Conservative constraints on PBH-PBH mergers incorporating effects of binary perturbations - [arXiv:](https://arxiv.org/abs/1908.09752)  
+- **LIGO-HMR***: Constraints on PBH-PBH mergers in which one PBH is ~37 solar mass and the other is sub-solar - [arXiv:2007.03583](https://arxiv.org/abs/2007.03583) 
 - **LIGO-SGWB**: Stochastic BG of PBH mergers with LIGO - [arXiv:1904.02396](https://arxiv.org/abs/1904.02396)  
 - **M**: Microlensing constraints from MACHO - [astro-ph/0011506](https://arxiv.org/abs/astro-ph/0011506)  
 - **Microlensing**: envelope of EROS, HSC, K and M  
