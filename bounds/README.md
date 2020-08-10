@@ -11,6 +11,7 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
 - **EDGESevap**: Constraints from energy injection in the 21cm EDGES signal due to evaporating PBHs - [arXiv:1803.09390](https://arxiv.org/abs/1803.09390)
 - **EGRB**: Constraints on PBH evaporation from extragalactic gamma-rays - [arXiv:0912.5297](https://arxiv.org/abs/0912.5297)  
 - **FL**: Femto-lensing of gamma-ray bursts - [arXiv:1204.2056](https://arxiv.org/abs/1204.2056)  
+- **FRB**: Non-observation of lensing of Fast Radio Bursts - [arXiv:2003.13349](https://arxiv.org/abs/2003.13349)  
 - **GW-lensing†**: Microlensing of GWs by PBHs - [arXiv:1712.01396](https://arxiv.org/abs/1712.01396)  
 - **HSC**: Microlensing constraints from the Hyper-Supreme Cam - [arXiv:1701.02151](https://arxiv.org/abs/1701.02151), updated in [arXiv:1910.01285](https://arxiv.org/abs/1910.01285) and then again in [arXiv:2007.12697](https://arxiv.org/abs/2007.12697) 
 - **Icarus**: Icarus microlensing event ('caustic crossing') - [arXiv:1710.00148](https://arxiv.org/abs/1710.00148)  
