@@ -1,6 +1,6 @@
 ## PBHbounds
 
-[![DOI](https://zenodo.org/badge/220053456.svg)](https://zenodo.org/badge/latestdoi/220053456) [![arXiv](https://img.shields.io/badge/arXiv-2007.10722-B31B1B.svg)](http://arxiv.org/abs/1605.04917) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![DOI](https://zenodo.org/badge/220053456.svg)](https://zenodo.org/badge/latestdoi/220053456) [![arXiv](https://img.shields.io/badge/arXiv-2007.10722-B31B1B.svg)](http://arxiv.org/abs/2007.10722) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 *A collection of bounds on primordial black holes (PBHs) and code for plotting them.*
 
