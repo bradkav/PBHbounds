@@ -25,11 +25,18 @@ where `LIST_FILE` is a text file containing a list of bounds to be plotted (see 
 
 The plot style and some of the bounds are inspired by [arXiv:1801.00808](https://arxiv.org/abs/1801.00808).
 
+Constraints on the primordial power spectrum can be plotted with
+```
+python PlotPSbounds.py
+```
+which is roughly inspired by plots from [arXiv:1811.11158](https://arxiv.org/abs/1811.11158), [arXiv:1812.00674](https://arxiv.org/abs/1812.00674) and [arXiv:1909.01593](https://arxiv.org/abs/1909.01593).
+
 ### Versions
 
 **Version 1.0 (12/11/2019):** Release version. Created for the first [GW4FP workshop](https://indico.cern.ch/event/843270/) (Amsterdam 2019).
 
 **Updates:** 
+- 13/01/2021: Added code for plotting Power Spectrum constraints (Fig. 1 of PBH review).
 - 20/07/2020: Substantial updates, to coincide with PBH review article (more details to follow).
 - 07/01/2020: added bounds on PBH evaporation from 511 keV gamma ray line
 
