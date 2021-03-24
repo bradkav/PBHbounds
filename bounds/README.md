@@ -24,6 +24,7 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
 - **LIGO-perturbed**: Conservative constraints on PBH-PBH mergers incorporating effects of binary perturbations - [arXiv:](https://arxiv.org/abs/1908.09752)  
 - **LIGO-HMR***: Constraints on PBH-PBH mergers in which one PBH is ~37 solar mass and the other is sub-solar - [arXiv:2007.03583](https://arxiv.org/abs/2007.03583) 
 - **LIGO-SGWB**: Stochastic BG of PBH mergers with LIGO - [arXiv:1904.02396](https://arxiv.org/abs/1904.02396)  
+- **Lyalphaforest**: Ly-alpha forest constraint from the shot noise power spectrum [arXiv:1903.10509](https://arxiv.org/abs/1903.10509)  
 - **M**: Microlensing constraints from MACHO - [astro-ph/0011506](https://arxiv.org/abs/astro-ph/0011506)  
 - **Microlensing**: envelope of EROS, HSC, K and M  
 - **NANOGrav**: Scalar-induced GWs with NANOGrav - [arXiv:1910.12239](https://arxiv.org/abs/1910.12239)
@@ -34,6 +35,7 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
 - **PTA-Doppler†**: PBH-induced motions in Pulsar Timing Arrays - [arXiv:1901.04490](https://arxiv.org/abs/1901.04490)  
 - **PTA-Shapiro†**: PBH-induced time delays in Pulsar Timing Arrays - [arXiv:1901.04490](https://arxiv.org/abs/1901.04490)  
 - **Radio**: Radio constraints on accreting PBHs in the Milky Way - [arXiv:1812.07967](https://arxiv.org/abs/1812.07967)  
+- **SKA†**: Forecast for the 21 cm power spectrum from SKA - [arXiv:1906.07735](https://arxiv.org/abs/1906.07735)  
 - **SNe-Lensing**: Lensing of supernovae by PBHs - [arXiv:1712.02240](https://arxiv.org/abs/1712.02240)  
 - **SuperK**: Bounds from evaporation into neutrinos from SuperKamiokande - [arXiv:1912.01014](https://arxiv.org/abs/1912.01014)  
 - **UFdwarfs**: Constraints from the disruption of ultra-faint dwarfs - [arXiv:1605.03665](https://arxiv.org/abs/1605.03665)  
