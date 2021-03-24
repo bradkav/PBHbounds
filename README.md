@@ -21,7 +21,7 @@ You can produce a plot with
 ```
 python PlotPBHbounds.py -listfile LIST_FILE -outfile OUT_FILE
 ```
-where `LIST_FILE` is a text file containing a list of bounds to be plotted (see `listfiles/list_all.txt` for an example) and `OUT_FILE` is the full filename of the image to be output (e.g. `plots/PBHbounds.pdf`). You can use the short flags `-lf` and `-of` for specifying the list file and output file. 
+where `LIST_FILE` is a text file containing a list of bounds to be plotted (see `listfiles/list_all.txt` for an example) and `OUT_FILE` is the full filename of the image to be output (e.g. `plots/PBHbounds.pdf`). You can use the short flags `-lf` and `-of` for specifying the list file and output file.
 
 The plot style and some of the bounds are inspired by [arXiv:1801.00808](https://arxiv.org/abs/1801.00808).
 
@@ -35,7 +35,8 @@ which is roughly inspired by plots from [arXiv:1811.11158](https://arxiv.org/abs
 
 **Version 1.0 (12/11/2019):** Release version. Created for the first [GW4FP workshop](https://indico.cern.ch/event/843270/) (Amsterdam 2019).
 
-**Updates:** 
+**Updates:**
+- 24/03/2021: Added Lyman alpha forest constraint and SKA forecast, shown in [arXiv:2103.12087](https://arxiv.org/abs/2103.12087).
 - 13/01/2021: Added code for plotting Power Spectrum constraints (Fig. 1 of PBH review).
 - 20/07/2020: Substantial updates, to coincide with PBH review article (more details to follow).
 - 07/01/2020: added bounds on PBH evaporation from 511 keV gamma ray line

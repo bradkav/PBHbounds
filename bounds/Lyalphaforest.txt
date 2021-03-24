@@ -1,0 +1,5 @@
+# Ly-alpha forest constraint from the shot noise power spectrum f_pbh M_pbh < 60 Msun, from https://arxiv.org/abs/1903.10509
+60.	1.
+600.	0.1
+6000.	0.01
+60000.	0.001
