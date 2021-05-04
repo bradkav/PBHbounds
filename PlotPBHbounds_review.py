@@ -25,9 +25,6 @@ mpl.rc('text', usetex=True)
 mpl.rcParams['legend.edgecolor'] = 'inherit'
 
 
-
-# Bounds taken from 1801.00808
-
 #General options
 #plot_SGWB_range = True
 

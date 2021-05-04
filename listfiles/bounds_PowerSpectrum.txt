@@ -1,0 +1,15 @@
+# Bound, colour, linestyle, x, y, rotation, title
+#NANOgrav m - 1e9 1e-3 0 
+#
+Lyman-alpha	tab:blue	- 	1.0	1.5e-8	0	Lyman-alpha 
+Lyman-alpha2 	tab:blue 	- 	1.0	2e-8 	0	_
+Planck 		tab:red 	-  	2e-2	5e-9 	0	Planck
+Planck2 	tab:red		- 	2e-2	5e-9 	0	_
+FIRAS    	tab:green 	- 	5e2  	1e-4  	0	FIRAS
+PIXIE    	tab:green 	-- 	5e2 	3e-8	0	PIXIE
+PTA     	tab:purple	- 	1e7  	2.5e-2  0	PTA
+SKA     	tab:purple	-- 	5e6 	8e-5  	0	SKA
+LISA     	tab:purple 	-- 	2e12 	2e-4  	0	LISA
+BBO       	tab:purple 	-- 	1e14  	6e-6 	0	BBO
+PBHDM 		k		- 	5e3  	1e-2	0	PBHDM
+steep 		k 		:   	5e10 	5e-7  	0	steepest_growth

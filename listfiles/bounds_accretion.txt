@@ -1,4 +1,4 @@
-# Bound, colour, linestyle, x, y, rotation
+# Bound, colour, linestyle, x, y, rotation, title
 Radio	C3	-	30	6e-4	-60	Radio
 CMB	C3	-	70	1e-3	-80	CMB
 EDGES	C3	- 	330	4e-3	-57	EDGES_21cm

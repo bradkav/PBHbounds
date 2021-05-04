@@ -1,0 +1,5 @@
+# Forecast for the 21 cm power spectrum from SKA, Fig 12 in https://arxiv.org/abs/1906.07735
+1. 	0.0128617
+10. 	0.0007394
+100. 	0.0000195
+1000.	1.045e-07
