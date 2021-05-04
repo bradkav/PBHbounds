@@ -23,6 +23,8 @@ python PlotPBHbounds.py -listfile LIST_FILE -outfile OUT_FILE
 ```
 where `LIST_FILE` is a text file containing a list of bounds to be plotted (see `listfiles/list_all.txt` for an example) and `OUT_FILE` is the full filename of the image to be output (e.g. `plots/PBHbounds.pdf`). You can use the short flags `-lf` and `-of` for specifying the list file and output file.
 
+A dark theme (with black background and white text) can be set using the flag `--dark`.
+
 The plot style and some of the bounds are inspired by [arXiv:1801.00808](https://arxiv.org/abs/1801.00808).
 
 Constraints on the primordial power spectrum can be plotted with
