@@ -32,8 +32,8 @@ mpl.rcParams['legend.edgecolor'] = 'inherit'
 plot_SGWB_range = True
 
 #Default values, overridden if you pass in command line arguments
-listfile_default = "listfiles/bounds_microlensing.txt" 
-outfile_default = "plots/PBHbounds_microlensing_square.pdf"
+listfile_default = "listfiles/bounds_microlensing_withOGLE.txt" 
+outfile_default = "plots/PBHbounds_microlensing_square_withOGLE.pdf"
 
 #Load in the filename with the list of bounds and the output filename
 parser = argparse.ArgumentParser(description='...')

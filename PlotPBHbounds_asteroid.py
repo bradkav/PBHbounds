@@ -32,8 +32,8 @@ mpl.rcParams['legend.edgecolor'] = 'inherit'
 plot_SGWB_range = True
 
 #Default values, overridden if you pass in command line arguments
-listfile_default = "listfiles/bounds_evaporation.txt" 
-outfile_default = "plots/PBHbounds_evaporation_square.pdf"
+listfile_default = "listfiles/bounds_asteroid_proj.txt" 
+outfile_default = "plots/PBHbounds_asteroid_square_projected.pdf"
 
 #Load in the filename with the list of bounds and the output filename
 parser = argparse.ArgumentParser(description='...')
@@ -60,8 +60,8 @@ def addConstraint(boundID, col='blue',x = 1e-30,y=1e-4,ang=0, linestyle='-', lab
         plt.fill_between(m , np.clip(f, 0,1), 1, alpha=0.15, color=col)
     linewidth = 1.0
     if (boundID in ["Microlensing", "Evaporation"]):
-        linewidth=2.0
-    plt.plot(m, np.clip(f, 0,1), color=col, lw=linewidth, linestyle=linestyle)
+        linewidth=1.0
+    plt.plot(m, np.clip(f, 0,1), color=col, lw=linewidth, linestyle=linestyle, zorder=0)
     
     if (x > 1e-20):
         plt.text(x, y, labeltext.replace("_", " "), rotation=ang, fontsize=12, ha='center', va='center')
@@ -103,10 +103,10 @@ for i in range(len(bounds)):
 #Plotting stuff
 plt.axhspan(1, 1.5, facecolor='grey', alpha=0.5)
     
-plt.ylim(1e-4, 1.5)
+plt.ylim(1e-3, 1.5)
 
-xmin = 5e-18
-xmax = 5.1e-16
+xmin = 1e-18
+xmax = 1e-8
 plt.xlim(xmin, xmax)
 
 ticks_minor = np.geomspace(1e-18, 1e4, 23)
@@ -127,8 +127,8 @@ ax_top.set_xlabel(r'$M_\mathrm{PBH}$ [g]', labelpad=7)
 g_to_Msun = 1/1.989e+33
 
 g_ticks_minor = np.geomspace(1e15, 1e37, 23)
-g_ticks_minor = g_ticks_minor[(xmin <= g_to_Msun*g_ticks_minor) & (g_to_Msun*g_ticks_minor <= xmax)]
-g_ticks = g_ticks_minor
+g_ticks_minor = g_ticks_minor[(xmin < g_to_Msun*g_ticks_minor) & (g_to_Msun*g_ticks_minor < xmax)]
+g_ticks = g_ticks_minor[::3]
 
 
 g_tick_labels = [r"$10^{" + str(int(np.log10(x))) +"}$" for x in g_ticks]
@@ -140,7 +140,7 @@ ax_top.xaxis.set_tick_params(pad=0)
 ax_top.set_xticks(g_ticks_minor*g_to_Msun,minor=True)
 ax_top.set_xticklabels([],minor=True)
 
-ax.text(0.5, 0.05, "Evaporation", va = "bottom", ha = "center", color='C1',  transform=ax.transAxes, fontsize=16)
+ax.text(0.5, 0.05, "Asteroid-mass", va = "bottom", ha = "center", color='y',  transform=ax.transAxes)
 
 plt.savefig(outfile, bbox_inches='tight')
     
