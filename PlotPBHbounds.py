@@ -81,6 +81,8 @@ def addSIGWprojections(col='red', linestyle='--'):
     #plt.plot([6.6e-14, 6.6e-12], [3e-3, 3e-3], 0, color='red', linestyle='--')
     plt.plot([6.6e-14, 6.6e-14], [5e-3, 1], color = col, linestyle=linestyle, lw=1.0)
     plt.plot([6.6e-12, 6.6e-12], [5e-3, 1], color = col, linestyle=linestyle, lw=1.0)
+    
+    #Rough indication of sensitive mass ranges: see e.g. https://arxiv.org/abs/1810.12218
     plt.text(8e-13, 7e-3, "LISA",fontsize=12, ha='center', va='bottom', rotation = 90)
 
     #AI/DECIGO
@@ -113,7 +115,7 @@ for i in range(len(bounds)):
 #Plotting stuff
 plt.axhspan(1, 1.5, facecolor='grey', alpha=0.5)
     
-plt.ylim(1e-3, 1.5)
+plt.ylim(1e-4, 1.5)
 plt.xlim(1e-18, 1e4)
     
 ax.set_xticks(np.logspace(-18, 4, 23),minor=True)

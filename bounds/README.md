@@ -4,14 +4,17 @@ Check each individual file to find out precisely which constraint I'm using.
 Constraints which are not *strictly* valid for monochromatic mass functions are marked with an asterisk (*). Projected constraints are marked with a dagger (†). Constraints which are now generally discredited are marked with a 'slashed zero' (ø).
 
 - **511keV**: Constraints on PBH evaporation from the 511 keV gamma ray line - [arXiv:1906.09994](https://arxiv.org/abs/1906.09994) and [arXiv:1906.07740](https://arxiv.org/abs/1906.07740)  
+- **Comptel**: Constraints from PBH evaporation using Comptel GC observations - [arXiv:2010.04797](https://arxiv.org/abs/2010.04797)  
 - **CMB**: Constraints from modification of the CMB spectrum due to accreting PBHs, including particle DM accretion - [arXiv:2002.10771](https://arxiv.org/abs/2002.10771)  
 - **CMBevap**: Constraints from modification of the CMB spectrum due to evaporating PBHs - [arXiv:1612.07738](https://arxiv.org/abs/1612.07738)
 - **EROS**: Microlensing constraints from EROS - [astro-ph/0607207](https://arxiv.org/abs/astro-ph/0607207)  
 - **EDGES**: Constraints from energy injection in the 21cm EDGES signal due to accreting PBHs - [arXiv:1803.09697](https://arxiv.org/abs/1803.09697)  
 - **EDGESevap**: Constraints from energy injection in the 21cm EDGES signal due to evaporating PBHs - [arXiv:1803.09390](https://arxiv.org/abs/1803.09390)
 - **EGRB**: Constraints on PBH evaporation from extragalactic gamma-rays - [arXiv:0912.5297](https://arxiv.org/abs/0912.5297)  
-- **FL**: Femto-lensing of gamma-ray bursts - [arXiv:1204.2056](https://arxiv.org/abs/1204.2056)  
+- **FLø**: Femto-lensing of gamma-ray bursts - [arXiv:1204.2056](https://arxiv.org/abs/1204.2056)  
+- **FL-small†**: Femto-lensing of small gamma-ray bursts - [arXiv:1807.11495](https://arxiv.org/abs/1807.11495)  
 - **FRB**: Non-observation of lensing of Fast Radio Bursts - [arXiv:2003.13349](https://arxiv.org/abs/2003.13349)  
+- **GRB-parallax†**: Lensing parallax of 1000 GRBs (using spatially separated telescopes) - [arXiv:1908.00078](https://arxiv.org/abs/1908.00078)  
 - **GW-lensing†**: Microlensing of GWs by PBHs - [arXiv:1712.01396](https://arxiv.org/abs/1712.01396)  
 - **HSC**: Microlensing constraints from the Hyper-Supreme Cam - [arXiv:1701.02151](https://arxiv.org/abs/1701.02151), updated in [arXiv:1910.01285](https://arxiv.org/abs/1910.01285) and then again in [arXiv:2007.12697](https://arxiv.org/abs/2007.12697) 
 - **Icarus**: Icarus microlensing event ('caustic crossing') - [arXiv:1710.00148](https://arxiv.org/abs/1710.00148)  
