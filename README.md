@@ -38,6 +38,7 @@ which is roughly inspired by plots from [arXiv:1811.11158](https://arxiv.org/abs
 **Version 1.0 (12/11/2019):** Release version. Created for the first [GW4FP workshop](https://indico.cern.ch/event/843270/) (Amsterdam 2019).
 
 **Updates:**
+- 04/05/2021: Added some projected constraints in the asteroid-mass region, as well as a new flag for dark themes.
 - 24/03/2021: Added Lyman alpha forest constraint and SKA forecast, shown in [arXiv:2103.12087](https://arxiv.org/abs/2103.12087).
 - 13/01/2021: Added code for plotting Power Spectrum constraints (Fig. 1 of PBH review).
 - 20/07/2020: Substantial updates, to coincide with PBH review article (more details to follow).
