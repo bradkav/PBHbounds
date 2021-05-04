@@ -41,10 +41,20 @@ parser.add_argument('-lf','--listfile', help='File containing list of bounds to 
                     type=str, default=listfile_default)
 parser.add_argument('-of','--outfile', help='Filename (with extension) of output plot', 
                     type=str, default=outfile_default)
+                    
+parser.add_argument('-dark', '--dark', dest='dark', action='store_true')
+parser.set_defaults(dark=False)
 
 args = parser.parse_args()
 listfile = args.listfile
 outfile = args.outfile
+
+DARKMODE = args.dark
+
+alpha_val = 0.15
+if (DARKMODE):
+    plt.style.use('dark_background')
+    alpha_val = 0.35
 
 bounds = np.loadtxt(listfile, usecols=(0,), dtype=str)
 colors = np.loadtxt(listfile, usecols=(1,), dtype=str)
@@ -54,10 +64,18 @@ ylist = np.loadtxt(listfile, usecols=(4,))
 anglist = np.loadtxt(listfile, usecols=(5,))
 labellist = np.loadtxt(listfile, usecols=(6,), dtype=str)
 
+evap_color = "C1"
+if (DARKMODE):
+    evap_color= "C5"
+    for i, col in enumerate(colors):
+        if (col == "C1"):
+            colors[i] = evap_color
+            
+
 def addConstraint(boundID, col='blue',x = 1e-30,y=1e-4,ang=0, linestyle='-', labeltext=''):
     m, f = np.loadtxt('bounds/' + boundID + '.txt', unpack=True)
     if (boundID != "OGLE?"):
-        plt.fill_between(m , np.clip(f, 0,1), 1, alpha=0.15, color=col)
+        plt.fill_between(m , np.clip(f, 0,1), 1, alpha=alpha_val, color=col)
     linewidth = 1.0
     if (boundID in ["Microlensing", "Evaporation"]):
         linewidth=2.0
@@ -67,14 +85,14 @@ def addConstraint(boundID, col='blue',x = 1e-30,y=1e-4,ang=0, linestyle='-', lab
         plt.text(x, y, labeltext.replace("_", " "), rotation=ang, fontsize=12, ha='center', va='center')
 
 def addSIGWprojections(col='red', linestyle='--'):
-    plt.fill_between([6.6e-14, 6.6e-12], 5e-3, 1, color=col, alpha = 0.15, linewidth=0)
+    plt.fill_between([6.6e-14, 6.6e-12], 5e-3, 1, color=col, alpha = alpha_val, linewidth=0)
     #plt.plot([6.6e-14, 6.6e-12], [3e-3, 3e-3], 0, color='red', linestyle='--')
     plt.plot([6.6e-14, 6.6e-14], [5e-3, 1], color = col, linestyle=linestyle, lw=1.0)
     plt.plot([6.6e-12, 6.6e-12], [5e-3, 1], color = col, linestyle=linestyle, lw=1.0)
     plt.text(8e-13, 7e-3, "LISA",fontsize=12, ha='center', va='bottom', rotation = 90)
 
     #AI/DECIGO
-    plt.fill_between([1e-17, 1e-15], 5e-3, 1, color=col, alpha = 0.15, linewidth=0)
+    plt.fill_between([1e-17, 1e-15], 5e-3, 1, color=col, alpha = alpha_val, linewidth=0)
     plt.plot([1e-17, 1e-17], [5e-3, 1], color = col, linestyle=linestyle, lw=1.0)
     plt.plot([1e-15, 1e-15], [5e-3, 1], color = col, linestyle=linestyle, lw=1.0)
     #plt.plot([1e-17, 1e-15], [3e-3, 3e-3], 0, color='red', linestyle='--')
@@ -140,7 +158,7 @@ ax_top.xaxis.set_tick_params(pad=0)
 ax_top.set_xticks(g_ticks_minor*g_to_Msun,minor=True)
 ax_top.set_xticklabels([],minor=True)
 
-ax.text(0.5, 0.05, "Evaporation", va = "bottom", ha = "center", color='C1',  transform=ax.transAxes, fontsize=16)
+ax.text(0.5, 0.05, "Evaporation", va = "bottom", ha = "center", color=evap_color,  transform=ax.transAxes, fontsize=16)
 
 plt.savefig(outfile, bbox_inches='tight')
     
