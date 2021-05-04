@@ -38,10 +38,20 @@ parser.add_argument('-lf','--listfile', help='File containing list of bounds to 
                     type=str, default=listfile_default)
 parser.add_argument('-of','--outfile', help='Filename (with extension) of output plot', 
                     type=str, default=outfile_default)
+                    
+parser.add_argument('-dark', '--dark', dest='dark', action='store_true')
+parser.set_defaults(dark=False)
 
 args = parser.parse_args()
 listfile = args.listfile
 outfile = args.outfile
+
+DARKMODE = args.dark
+
+alpha_val = 0.15
+if (DARKMODE):
+    plt.style.use('dark_background')
+    alpha_val = 0.35
 
 bounds = np.loadtxt(listfile, usecols=(0,), dtype=str)
 colors = np.loadtxt(listfile, usecols=(1,), dtype=str)
@@ -54,7 +64,7 @@ anglist = np.loadtxt(listfile, usecols=(5,))
 def addConstraint(boundID, col='blue',x = 1e-30,y=1e-4,ang=0, linestyle='-'):
     m, f = np.loadtxt('bounds/' + boundID + '.txt', unpack=True)
     if (boundID != "OGLE?"):
-        plt.fill_between(m , np.clip(f, 0,1), 1, alpha=0.15, color=col)
+        plt.fill_between(m , np.clip(f, 0,1), 1, alpha=alpha_val, color=col)
     linewidth = 1.0
     plt.plot(m, np.clip(f, 0,1), color=col, lw=linewidth, linestyle=linestyle)
     

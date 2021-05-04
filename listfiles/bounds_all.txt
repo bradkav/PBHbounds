@@ -32,4 +32,4 @@ Voyager	b	-	5e-18	5e-2	85
 INTEGRAL	b	-	5e-18	5e-2	85
 evap	k	-	5e-18	5e-2	85
 Microlensing	k	-	1e-9	4e-3	0
-X-ray
+X-ray	C3	- 	64	4.5e-3	20	
