@@ -11,7 +11,14 @@
 
 The list of available, tabulated bounds is in the [bounds/](bounds/) folder (see the readme there). The fact that I've included or omitted a particular bound shouldn't be taken as an endorsement or otherwise. I'll leave the user to exercise their own judgement when choosing which bounds are relevant. Note also that some of the bounds plotted above as dashed lines are projections.
 
-If you'd like to add a bound to the repo, you can submit a pull request, create an issue or just contact me directly.
+### Contributing
+
+If you'd like to add a bound to the repo, there are a few options:
+1. Make the changes yourself and submit a pull request:
+	* Add the new bound as a `.txt` file in the [bounds/](bounds/) folder. Each file should have two columns, corresponding to the PBH mass in Solar mass, and the constraint on the PBH fraction. Also include a comment at the top of the file giving a link to the source of the bound.  
+	* Update the [bounds/README.md](https://github.com/bradkav/PBHbounds/blob/master/bounds/README.md) file with information about the new bound.
+2. Create an issue here on the github repo, pointing to the paper/bound which is missing.  
+3. You can  create an issue or just contact me directly.  
 
 ### Plots
 
@@ -35,14 +42,14 @@ which is roughly inspired by plots from [arXiv:1811.11158](https://arxiv.org/abs
 
 ### Versions
 
-**Version 1.0 (12/11/2019):** Release version. Created for the first [GW4FP workshop](https://indico.cern.ch/event/843270/) (Amsterdam 2019).
-
 **Updates:**
 - 04/05/2021: Added some projected constraints in the asteroid-mass region, as well as a new flag for dark themes.
 - 24/03/2021: Added Lyman alpha forest constraint and SKA forecast, shown in [arXiv:2103.12087](https://arxiv.org/abs/2103.12087).
 - 13/01/2021: Added code for plotting Power Spectrum constraints (Fig. 1 of PBH review).
 - 20/07/2020: Substantial updates, to coincide with PBH review article (more details to follow).
 - 07/01/2020: added bounds on PBH evaporation from 511 keV gamma ray line
+
+**Version 1.0 (12/11/2019):** Release version. Created for the first [GW4FP workshop](https://indico.cern.ch/event/843270/) (Amsterdam 2019).
 
 ### Citation
 
