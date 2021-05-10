@@ -19,7 +19,7 @@ If you'd like to add a bound to the repo, there are a few options:
 	* Update the [bounds/README.md](https://github.com/bradkav/PBHbounds/blob/master/bounds/README.md) file with information about the new bound.
 	* Submit a pull request
 2. Create an issue here on the github repo, pointing to the paper/bound which is missing.  
-3. You can  create an issue or just contact me directly.  
+3. Contact me directly and let me know which bound you think should be added.
 
 ### Plots
 
