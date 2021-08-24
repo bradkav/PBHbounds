@@ -8,7 +8,7 @@ OGLE	b	-	0.6e-3	2e-1	0
 EGRB	b	-	5e-18	3e-2	85
 K	b	-	1e-8	4e-1	0	
 NS	y	-	2.5e-14	6e-2	0
-SNe-Lensing	y	-	3e-2	6e-1	0
+#SNe-Lensing	y	-	3e-2	6e-1	0
 WD	y	-	2e-14	0.5	0
 M	b	-	3	5e-1	0
 HSC	b	-	5e-9	5e-2	0
@@ -16,6 +16,7 @@ PTA-Doppler	b	--	1e-8	9e-2	0
 PTA-Shapiro	b	--	1e-3	0.8	0
 EROS	b	-	1e-2	8e-2	0
 LIGO	r	-	1e1	2e-3	-75
+LIGO-subsolar	r	-	.5 	.01 	-75
 LIGO-SGWB	r	-	10	2e-2	-60
 NANOGrav	r	-	2e-2	1e-2	0
 GW-Lensing	r	--	1e3	2e-1	-70
@@ -30,6 +31,6 @@ CMBevap	b	-	5e-18	5e-2	85
 EDGESevap	b	-	5e-18	5e-2	85
 Voyager	b	-	5e-18	5e-2	85
 INTEGRAL	b	-	5e-18	5e-2	85
-evap	k	-	5e-18	5e-2	85
+#evap	k	-	5e-18	5e-2	85
 Microlensing	k	-	1e-9	4e-3	0
 X-ray	C3	- 	64	4.5e-3	20	
