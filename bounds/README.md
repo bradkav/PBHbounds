@@ -33,7 +33,7 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
 - **Microlensing**: envelope of EROS, HSC, K and M  
 - **NANOGrav**: Scalar-induced GWs with NANOGrav - [arXiv:1910.12239](https://arxiv.org/abs/1910.12239)
 - **NSø**: Neutron star capture and destruction - [arXiv:1301.4984](https://arxiv.org/abs/1301.4984)  
-- **OGLE?**: Hint for Earth mass PBHs with OGLE - [arXiv:1901.07120](https://arxiv.org/abs/1901.07120)
+- **OGLE-hint**: Hint for Earth mass PBHs with OGLE - [arXiv:1901.07120](https://arxiv.org/abs/1901.07120)
 - **OGLE**: Microlensing constraints from OGLE - [arXiv:1901.07120](https://arxiv.org/abs/1901.07120)  
 - **PBH-EMRIs†**: Extreme mass-ratio inspirals of PBHs around supermassive black holes - [arXiv:1910.07397](https://arxiv.org/abs/1910.07397)  
 - **PTA-Doppler†**: PBH-induced motions in Pulsar Timing Arrays - [arXiv:1901.04490](https://arxiv.org/abs/1901.04490)  
