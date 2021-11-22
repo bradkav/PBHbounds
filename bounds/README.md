@@ -26,6 +26,7 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
 - **LIGO**: Direct constraints on PBH-PBH mergers with LIGO - [arXiv:1805.09034](https://arxiv.org/abs/1805.09034) and [arXiv:1904.08976](https://arxiv.org/abs/1904.08976)  
 - **LIGO-perturbed**: Conservative constraints on PBH-PBH mergers incorporating effects of binary perturbations - [arXiv:1908.09752](https://arxiv.org/abs/1908.09752)  
 - **LIGO-HMR***: Constraints on PBH-PBH mergers in which one PBH is ~37 solar mass and the other is sub-solar - [arXiv:2007.03583](https://arxiv.org/abs/2007.03583) 
+- **LIGO-subsolar**: Constraints on PBH fraction from direct searches for gravitational waves from subsolar mass binary black hole mergers in LIGO and Virgo O1, O2 and O3a data - [arXiv:2106.08979](https://arxiv.org/abs/2106.08979)
 - **LIGO-SGWB**: Stochastic BG of PBH mergers with LIGO - [arXiv:1904.02396](https://arxiv.org/abs/1904.02396)  
 - **Lyalphaforest**: Ly-alpha forest constraint from the shot noise power spectrum [arXiv:1903.10509](https://arxiv.org/abs/1903.10509)  
 - **M**: Microlensing constraints from MACHO - [astro-ph/0011506](https://arxiv.org/abs/astro-ph/0011506)  

@@ -6,4 +6,5 @@ NANOGrav	r	-	3e-2	2e-3	0
 GW-Lensing	r	--	1e3	2e-1	-70
 PBH-EMRIs	r	--	2e-6	0.3	-76
 SIGWs	r	--	0	0	0
-LIGO-HMR r - .5 .01 -75
+LIGO-HMR r 	- 	0.1 	1.5e-2	-75
+LIGO-subsolar	r	-	.5 .01 -75
