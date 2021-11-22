@@ -53,12 +53,12 @@ if (DARKMODE):
     plt.style.use('dark_background')
     alpha_val = 0.35
 
-bounds = np.loadtxt(listfile, usecols=(0,), dtype=str)
-colors = np.loadtxt(listfile, usecols=(1,), dtype=str)
-lines = np.loadtxt(listfile, usecols=(2,), dtype=str)
-xlist = np.loadtxt(listfile, usecols=(3,))
-ylist = np.loadtxt(listfile, usecols=(4,))
-anglist = np.loadtxt(listfile, usecols=(5,))
+bounds = np.atleast_1d(np.loadtxt(listfile, usecols=(0,), dtype=str))
+colors = np.atleast_1d(np.loadtxt(listfile, usecols=(1,), dtype=str))
+lines = np.atleast_1d(np.loadtxt(listfile, usecols=(2,), dtype=str))
+xlist = np.atleast_1d(np.loadtxt(listfile, usecols=(3,)))
+ylist = np.atleast_1d(np.loadtxt(listfile, usecols=(4,)))
+anglist = np.atleast_1d(np.loadtxt(listfile, usecols=(5,)))
 
 if (DARKMODE):
     for i, col in enumerate(colors):

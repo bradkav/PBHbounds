@@ -79,7 +79,10 @@ def addConstraint(boundID, col='blue',x = 1e-30,y=1e-4,ang=0, linestyle='-', lab
     linewidth = 1.0
     if (boundID in ["Microlensing", "Evaporation"]):
         linewidth=2.0
-    plt.plot(m, np.clip(f, 0,1), color=col, lw=linewidth, linestyle=linestyle)
+    if (DARKMODE):
+        plt.plot(m, np.clip(f, 0,1), color=col, lw=linewidth, linestyle=linestyle)
+    else:
+        plt.plot(m, np.clip(f, 0,1), color=col, lw=linewidth, linestyle=linestyle)
     
     if (x > 1e-20):
         plt.text(x, y, labeltext.replace("_", " "), rotation=ang, fontsize=12, ha='center', va='center')
