@@ -1,4 +1,8 @@
-#Envelope of evaporation constraints: EDGESevap-Mittal2021, CMBevap, INTEGRAL, 511keV, Voyager, EGRB
+# Inferred constraints on the fraction of dark matter in the form of
+# primordial black holes (PBHs) in the mass range 10^15--10^17 g from
+# Mittal et al. (2021) [https://arxiv.org/abs/2107.02190]. This is for case II, in which X-ray heating is
+# present. See figure 6 (red line) from the paper for a graphical
+# representation. 
 5.000000000000000358e-19 1.867518875340305291e-10
 1.000000000000000072e-18 1.598424030286459998e-09
 1.500000000000000107e-18 8.631315666101696167e-09
@@ -20,4 +24,3 @@
 5.000000000000000512e-17 1.071119682946137554e-02
 1.000000000000000102e-16 3.567524793115885440e-01
 1.499999999999999969e-16 1.201212934563789192e+00
-

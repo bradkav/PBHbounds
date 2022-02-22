@@ -28,7 +28,7 @@ Icarus  b	-	1e1	2e-1	0
 EDGES	b	- 	1e3	4e-3	-75
 WideBinaries	b	-	2e2	3e-1	0
 CMBevap	b	-	5e-18	5e-2	85
-EDGESevap	b	-	5e-18	5e-2	85
+EDGESevap-Mittal2021	b	-	5e-18	5e-2	85
 Voyager	b	-	5e-18	5e-2	85
 INTEGRAL	b	-	5e-18	5e-2	85
 #evap	k	-	5e-18	5e-2	85
