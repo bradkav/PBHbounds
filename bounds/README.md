@@ -32,6 +32,7 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
 - **Lyalphaforest**: Ly-alpha forest constraint from the shot noise power spectrum [arXiv:1903.10509](https://arxiv.org/abs/1903.10509)  
 - **M**: Microlensing constraints from MACHO - [astro-ph/0011506](https://arxiv.org/abs/astro-ph/0011506)  
 - **Microlensing**: envelope of EROS, HSC, K and M  
+- **Microlensing-LongDuration**: Constraints from long-duration microlensing, combining EROS and MACHO results - [arXiv:2202.13819](https://arxiv.org/abs/2202.13819)  
 - **NANOGrav**: Scalar-induced GWs with NANOGrav - [arXiv:1910.12239](https://arxiv.org/abs/1910.12239)
 - **NSø**: Neutron star capture and destruction - [arXiv:1301.4984](https://arxiv.org/abs/1301.4984)  
 - **OGLE-hint**: Hint for Earth mass PBHs with OGLE - [arXiv:1901.07120](https://arxiv.org/abs/1901.07120)

@@ -4,5 +4,6 @@ SNe	C0	-	3e2	7e-1	0	SNe
 M	C0	-	3	5e-1	0	M
 HSC	C0	-	5e-9	5e-2	0	HSC
 EROS	C0	-	5e-1	3.5e-2	0	EROS
-Icarus  C0	-	2.5e1	2e-1	60	Icarus
+Icarus  C0	-	5e-2	1.02e-1	0	Icarus
 OGLE-hint	C0	--	1e-5	2.3e-2	-72	OGLE?
+Microlensing-LongDuration	C0	-	3e1	2.2e-1	0	Long
