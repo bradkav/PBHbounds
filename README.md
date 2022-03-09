@@ -57,3 +57,9 @@ which is roughly inspired by plots from [arXiv:1811.11158](https://arxiv.org/abs
 ### Citation
 
 Feel free to use the bounds and code for anything you like, but please link to the repo if you do and cite the DOI: [10.5281/zenodo.3538999](https://doi.org/10.5281/zenodo.3538999).
+
+### Papers using PBHbounds
+
+An incomplete list of papers which make use of PBHbounds. Please get in touch if you've used the code or digitised bounds, so I can keep track!
+
+- *Can breakdown of perturbation in the α-attractor inflation lead to PBH formation?*, Sarkar et al., [arXiv:2112.05408](https://arxiv.org/abs/2112.05408)
