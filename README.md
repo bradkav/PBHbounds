@@ -44,6 +44,7 @@ which is roughly inspired by plots from [arXiv:1811.11158](https://arxiv.org/abs
 ### Versions
 
 **Updates:**
+- 22/03/2022: Added new bounds from Long duration microlensing, ([arXiv:2202.13819](https://arxiv.org/abs/2202.13819)) and microlensing of quasars ([arXiv:2203.04777](https://arxiv.org/abs/2203.04777))
 - 22/02/2022: Added new EDGES 21cm constraints from Mittal et al. (2021), presented in [arXiv:2107.02190](https://arxiv.org/abs/2107.02190)  
 - 04/05/2021: Added some projected constraints in the asteroid-mass region, as well as a new flag for dark themes.
 - 24/03/2021: Added Lyman alpha forest constraint and SKA forecast, shown in [arXiv:2103.12087](https://arxiv.org/abs/2103.12087).

@@ -7,3 +7,4 @@ EROS	C0	-	5e-1	3.5e-2	0	EROS
 Icarus  C0	-	5e-2	1.02e-1	0	Icarus
 OGLE-hint	C0	--	1e-5	2.3e-2	-72	OGLE?
 Microlensing-LongDuration	C0	-	3e1	2.2e-1	0	Long
+Quasars	C0	-	3e1	8.5e-3	0	Quasars

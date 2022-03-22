@@ -1,0 +1,5 @@
+# https://arxiv.org/abs/2203.04777
+# Taking f_PBH = alpha_BH/alpha_smooth, with alpha_smooth = (1 - alpha_BH - alpha_stars), alpha_stars = 0.16 and alpha_BH = {0.011, 0.009, 0.009} for M_BH = {10, 30, 60} M_sun, 
+10	0.013
+30	0.011
+60	0.011
