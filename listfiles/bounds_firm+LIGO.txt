@@ -10,7 +10,7 @@ K	b	-	1e-8	4e-1	0
 M	b	-	3	5e-1	0
 HSC	b	-	1e-9	1e-2	0
 EROS	b	-	1e-2	8e-2	0
-OGLE?	k	:	1e-5	2.2e-2	-75
+OGLE-hint	k	:	1e-5	2.2e-2	-75
 LIGO	r	-	1e1	2e-3	-75
 LIGO-subsolar	r	-	.5 	.01 	-75
 LIGO-SGWB	r	-	10	2e-2	-60

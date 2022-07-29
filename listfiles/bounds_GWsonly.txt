@@ -1,5 +1,5 @@
 # Bound, colour, linestyle, x, y, rotation
-OGLE?	k	:	1e-5	2.2e-2	-75
+OGLE-hint	k	:	1e-5	2.2e-2	-75
 LIGO	r	-	1e1	2e-3	-75
 LIGO-SGWB	r	-	10	2e-2	-60
 NANOGrav	r	-	3e-2	2e-3	0

@@ -70,7 +70,7 @@ if (DARKMODE):
 
 def addConstraint(boundID, col='blue',x = 1e-30,y=1e-4,ang=0, linestyle='-'):
     m, f = np.loadtxt('bounds/' + boundID + '.txt', unpack=True)
-    if (boundID != "OGLE?"):
+    if (boundID != "OGLE-hint"):
         plt.fill_between(m , np.clip(f, 0,1), 1, alpha=alpha_val, color=col)
     linewidth = 1.0
     plt.plot(m, np.clip(f, 0,1), color=col, lw=linewidth, linestyle=linestyle)
