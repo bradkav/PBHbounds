@@ -59,8 +59,20 @@ which is roughly inspired by plots from [arXiv:1811.11158](https://arxiv.org/abs
 
 Feel free to use the bounds and code for anything you like, but please link to the repo if you do and cite the DOI: [10.5281/zenodo.3538999](https://doi.org/10.5281/zenodo.3538999).
 
+Please also get in touch to let me know you've used the code. That way I can keep track! Thanks.
+
 ### Papers using PBHbounds
 
 An incomplete list of papers which make use of PBHbounds. Please get in touch if you've used the code or digitised bounds, so I can keep track!
 
-- *Can breakdown of perturbation in the α-attractor inflation lead to PBH formation?*, Sarkar et al., [arXiv:2112.05408](https://arxiv.org/abs/2112.05408)
+- *Navigating the asteroid field: New evaporation constraints for primordial black holes as dark matter*, Picker, [arXiv:2103.02815](https://arxiv.org/abs/2103.02815)  
+- *A brief review on primordial black holes as dark matter*, Villanueva-Domingo et al., [arXiv:2103.12087](https://arxiv.org/abs/2103.12087)  
+- *Signatures of primordial black hole dark matter at DUNE and THEIA*, De Romeri et al., [arXiv:2106.05013](https://arxiv.org/abs/2106.05013)  
+- *On Primordial Black Holes and secondary gravitational waves generated from inflation with solo/multi-bumpy potential*, Zheng et al., [arXiv:2106.04303](https://arxiv.org/abs/2106.04303)  
+- *Primordial blackholes from Gauss-Bonnet-corrected single field inflation*, Kawai & Kim, [arXiv:2108.01340](arXiv:2108.01340)  
+- *Primordial Black Holes from CDM Isocurvature Perturbations*, Passaglia & Sasaki, [arXiv:2109.12824](https://arxiv.org/abs/2109.12824)  
+- *Baryogenesis from ultra-slow-roll inflation*, Wu et al., [arXiv:2109.00118](https://arxiv.org/abs/2109.00118)  
+- *Can breakdown of perturbation in the α-attractor inflation lead to PBH formation?*, Sarkar et al., [arXiv:2112.05408](https://arxiv.org/abs/2112.05408)  
+- *Shedding light on Dark Matter through 21 cm Cosmology and Reionization constraints*, Villanueva-Domingo, [arXiv:2112.08201](https://arxiv.org/abs/2112.08201)  
+- *Limits on Primordial Black Holes from M87*, Silk & Stodolsky, [arXiv:2201.03591](https://arxiv.org/abs/2201.03591)  
+- *Snowmass 2021 Cosmic Frontier White Paper: Primordial Black Hole Dark Matter*, Bird et al., [arXiv:2203.08967](https://arxiv.org/abs/2203.08967)  
