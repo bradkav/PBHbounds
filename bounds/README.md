@@ -11,6 +11,7 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
 - **EDGES**: Constraints from energy injection in the 21cm EDGES signal due to accreting PBHs - [arXiv:1803.09697](https://arxiv.org/abs/1803.09697)  
 - **EDGESevap-Clark2018**: Constraints from energy injection in the 21cm EDGES signal due to evaporating PBHs - [Clark et al., arXiv:1803.09390](https://arxiv.org/abs/1803.09390)  
 - **EDGESevap-Mittal2021**: Constraints from energy injection in the 21cm EDGES signal due to evaporating PBHs - [Mittal et al., arXiv:2107.02190](https://arxiv.org/abs/2107.02190)
+- **EDGESevap-Saha2021**: Constraints from energy injection due to evaporating PBHs (rotating and non-rotating), leading to an EDGES-like 21cm signal - [Saha & Laha, arXiv:2112.10794](https://arxiv.org/abs/2112.10794)  
 - **EGRB**: Constraints on PBH evaporation from extragalactic gamma-rays - [arXiv:0912.5297](https://arxiv.org/abs/0912.5297)  
 - **FLø**: Femto-lensing of gamma-ray bursts - [arXiv:1204.2056](https://arxiv.org/abs/1204.2056)  
 - **FL-small†**: Femto-lensing of small gamma-ray bursts - [arXiv:1807.11495](https://arxiv.org/abs/1807.11495)  
