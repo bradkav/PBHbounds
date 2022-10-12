@@ -1,10 +1,14 @@
-# Black curve from Fig 5. of https://arxiv.org/abs/2007.03583
-# data from https://github.com/gwastro/stellar-pbh-search
-0.01     3.7256
-0.03     2.3842e-01
-0.05     7.4799e-02
-0.10     3.0375e-02
-0.30     8.1303e-03
-0.50     5.5777e-03
-0.75     3.4464e-03
-1.00     2.8035e-03
+# Green solid curve from Fig 3 right panel of https://arxiv.org/abs/2202.11024
+# This result is from a direct search for GW from solar mass PBH merger in LIGO-Virgo-KAGRA O1+O2+O3 run
+# data from https://github.com/gwastro/subsolar-O3-search
+# PBHmass f_PBH
+0.0100 2.7542e-02
+0.0215 5.9769e-03
+0.0464 2.5959e-03
+0.1000 1.7005e-03
+0.1468 1.2044e-03
+0.2154 1.0281e-03
+0.3162 6.9774e-04
+0.4642 5.3312e-04
+0.6813 3.6442e-04
+1.0000 2.6525e-04
