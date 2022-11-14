@@ -65,6 +65,7 @@ Please also get in touch to let me know you've used the code. That way I can kee
 
 An incomplete list of papers which make use of PBHbounds. Please get in touch if you've used the code or digitised bounds, so I can keep track!
 
+- *Solar Mass Primordial Black Holes in Moduli Dominated Universe*, Bhattacharya et al., [arXiv:2101.02234](https://arxiv.org/abs/2101.02234)
 - *Navigating the asteroid field: New evaporation constraints for primordial black holes as dark matter*, Picker, [arXiv:2103.02815](https://arxiv.org/abs/2103.02815)  
 - *A brief review on primordial black holes as dark matter*, Villanueva-Domingo et al., [arXiv:2103.12087](https://arxiv.org/abs/2103.12087)  
 - *Signatures of primordial black hole dark matter at DUNE and THEIA*, De Romeri et al., [arXiv:2106.05013](https://arxiv.org/abs/2106.05013)  
