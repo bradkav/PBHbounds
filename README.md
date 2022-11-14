@@ -77,3 +77,4 @@ An incomplete list of papers which make use of PBHbounds. Please get in touch if
 - *Shedding light on Dark Matter through 21 cm Cosmology and Reionization constraints*, Villanueva-Domingo, [arXiv:2112.08201](https://arxiv.org/abs/2112.08201)  
 - *Limits on Primordial Black Holes from M87*, Silk & Stodolsky, [arXiv:2201.03591](https://arxiv.org/abs/2201.03591)  
 - *Snowmass 2021 Cosmic Frontier White Paper: Primordial Black Hole Dark Matter*, Bird et al., [arXiv:2203.08967](https://arxiv.org/abs/2203.08967)  
+- *The Effect of Gravitational Lensing on Fast Transient Event Rates*, Sammons et al., [arXiv:2210.09487](https://arxiv.org/abs/2210.09487)
