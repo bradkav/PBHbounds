@@ -65,18 +65,31 @@ Please also get in touch to let me know you've used the code. That way I can kee
 
 An incomplete list of papers which make use of PBHbounds. Please get in touch if you've used the code or digitised bounds, so I can keep track!
 
-- *Solar Mass Primordial Black Holes in Moduli Dominated Universe*, Bhattacharya et al., [arXiv:2101.02234](https://arxiv.org/abs/2101.02234)
-- *Primordial black hole formation in α-attractor models: an analysis using optimized peaks theory*, Mahbub, [2103.15957](https://arxiv.org/abs/2103.15957)  
-- *Navigating the asteroid field: New evaporation constraints for primordial black holes as dark matter*, Picker, [arXiv:2103.02815](https://arxiv.org/abs/2103.02815)  
-- *A brief review on primordial black holes as dark matter*, Villanueva-Domingo et al., [arXiv:2103.12087](https://arxiv.org/abs/2103.12087)  
-- *Signatures of primordial black hole dark matter at DUNE and THEIA*, De Romeri et al., [arXiv:2106.05013](https://arxiv.org/abs/2106.05013)  
-- *On Primordial Black Holes and secondary gravitational waves generated from inflation with solo/multi-bumpy potential*, Zheng et al., [arXiv:2106.04303](https://arxiv.org/abs/2106.04303)  
-- *Primordial blackholes from Gauss-Bonnet-corrected single field inflation*, Kawai & Kim, [arXiv:2108.01340](arXiv:2108.01340)  
-- *Primordial Black Holes from CDM Isocurvature Perturbations*, Passaglia & Sasaki, [arXiv:2109.12824](https://arxiv.org/abs/2109.12824)  
-- *Baryogenesis from ultra-slow-roll inflation*, Wu et al., [arXiv:2109.00118](https://arxiv.org/abs/2109.00118)  
-- *Can breakdown of perturbation in the α-attractor inflation lead to PBH formation?*, Sarkar et al., [arXiv:2112.05408](https://arxiv.org/abs/2112.05408)  
-- *Shedding light on Dark Matter through 21 cm Cosmology and Reionization constraints*, Villanueva-Domingo, [arXiv:2112.08201](https://arxiv.org/abs/2112.08201)  
-- *Limits on Primordial Black Holes from M87*, Silk & Stodolsky, [arXiv:2201.03591](https://arxiv.org/abs/2201.03591)  
-- *Snowmass 2021 Cosmic Frontier White Paper: Primordial Black Hole Dark Matter*, Bird et al., [arXiv:2203.08967](https://arxiv.org/abs/2203.08967)  
-- *The Effect of Gravitational Lensing on Fast Transient Event Rates*, Sammons et al., [arXiv:2210.09487](https://arxiv.org/abs/2210.09487)  
 - *Primordial black holes from Higgs inflation with a Gauss-Bonnet coupling*, Kawaguchi & Tsujikawa, [arXiv:2211.13364](https://arxiv.org/abs/2211.13364)
+- *The Effect of Gravitational Lensing on Fast Transient Event Rates*, Sammons et al., [arXiv:2210.09487](https://arxiv.org/abs/2210.09487)
+- *Snowmass 2021 Cosmic Frontier White Paper: Primordial Black Hole Dark Matter*, Bird et al., [arXiv:2203.08967](https://arxiv.org/abs/2203.08967)  
+- *Limits on Primordial Black Holes from M87*, Silk & Stodolsky, [arXiv:2201.03591](https://arxiv.org/abs/2201.03591)  
+- *Shedding light on Dark Matter through 21 cm Cosmology and Reionization constraints*, Villanueva-Domingo, [arXiv:2112.08201](https://arxiv.org/abs/2112.08201)
+- *Can breakdown of perturbation in the α-attractor inflation lead to PBH formation?*, Sarkar et al., [arXiv:2112.05408](https://arxiv.org/abs/2112.05408)  
+- *Baryogenesis from ultra-slow-roll inflation*, Wu et al., [arXiv:2109.00118](https://arxiv.org/abs/2109.00118)  
+- *Primordial Black Holes from CDM Isocurvature Perturbations*, Passaglia & Sasaki, [arXiv:2109.12824](https://arxiv.org/abs/2109.12824)
+- *Primordial blackholes from Gauss-Bonnet-corrected single field inflation*, Kawai & Kim, [arXiv:2108.01340](arXiv:2108.01340)  
+- *On Primordial Black Holes and secondary gravitational waves generated from inflation with solo/multi-bumpy potential*, Zheng et al., [arXiv:2106.04303](https://arxiv.org/abs/2106.04303)  
+- *Signatures of primordial black hole dark matter at DUNE and THEIA*, De Romeri et al., [arXiv:2106.05013](https://arxiv.org/abs/2106.05013)  
+- *A brief review on primordial black holes as dark matter*, Villanueva-Domingo et al., [arXiv:2103.12087](https://arxiv.org/abs/2103.12087)  
+- *Navigating the asteroid field: New evaporation constraints for primordial black holes as dark matter*, Picker, [arXiv:2103.02815](https://arxiv.org/abs/2103.02815)  
+- *Primordial black hole formation in α-attractor models: an analysis using optimized peaks theory*, Mahbub, [2103.15957](https://arxiv.org/abs/2103.15957)  
+- *Solar Mass Primordial Black Holes in Moduli Dominated Universe*, Bhattacharya et al., [arXiv:2101.02234](https://arxiv.org/abs/2101.02234)
+
+
+
+
+
+
+
+
+
+
+
+
+
