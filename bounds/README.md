@@ -43,6 +43,7 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
 - **PTA-Doppler†**: PBH-induced motions in Pulsar Timing Arrays - [arXiv:1901.04490](https://arxiv.org/abs/1901.04490)  
 - **PTA-Shapiro†**: PBH-induced time delays in Pulsar Timing Arrays - [arXiv:1901.04490](https://arxiv.org/abs/1901.04490)  
 - **Quasars**: Constraints from microlensing of quasars - [arXiv:2203.04777](https://arxiv.org/abs/2203.04777)
+- **Quasars-Xray**: Constraints from visible and X-ray microlensing of quasars (including and extending results of **Quasars**, arXiv:2203.04777, to lower masses) - [arxiv.org/abs/2307.07473](https://arxiv.org/abs/2307.07473)  
 - **Radio**: Radio constraints on accreting PBHs in the Milky Way - [arXiv:1812.07967](https://arxiv.org/abs/1812.07967)  
 - **SKA†**: Forecast for the 21 cm power spectrum from SKA - [arXiv:1906.07735](https://arxiv.org/abs/1906.07735)  
 - **SNe-Lensing**: Lensing of supernovae by PBHs - [arXiv:1712.02240](https://arxiv.org/abs/1712.02240)  

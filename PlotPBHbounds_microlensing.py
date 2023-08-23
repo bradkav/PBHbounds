@@ -32,8 +32,8 @@ mpl.rcParams['legend.edgecolor'] = 'inherit'
 plot_SGWB_range = True
 
 #Default values, overridden if you pass in command line arguments
-listfile_default = "listfiles/bounds_microlensing_withOGLE.txt" 
-outfile_default = "plots/PBHbounds_microlensing_square_withOGLE.pdf"
+listfile_default = "listfiles/bounds_microlensing.txt" 
+outfile_default = "plots/PBHbounds_microlensing_square.pdf"
 
 #Load in the filename with the list of bounds and the output filename
 parser = argparse.ArgumentParser(description='...')
@@ -63,6 +63,7 @@ xlist = np.loadtxt(listfile, usecols=(3,))
 ylist = np.loadtxt(listfile, usecols=(4,))
 anglist = np.loadtxt(listfile, usecols=(5,))
 labellist = np.loadtxt(listfile, usecols=(6,), dtype=str)
+
 
 def addConstraint(boundID, col='blue',x = 1e-30,y=1e-4,ang=0, linestyle='-', labeltext=''):
     m, f = np.loadtxt('bounds/' + boundID + '.txt', unpack=True)
