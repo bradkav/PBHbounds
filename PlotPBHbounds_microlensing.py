@@ -64,6 +64,8 @@ ylist = np.loadtxt(listfile, usecols=(4,))
 anglist = np.loadtxt(listfile, usecols=(5,))
 labellist = np.loadtxt(listfile, usecols=(6,), dtype=str)
 
+Mgrid = np.geomspace(1e-12, 1e5, 1000)
+envelope = 1.0 + 0.0*Mgrid
 
 def addConstraint(boundID, col='blue',x = 1e-30,y=1e-4,ang=0, linestyle='-', labeltext=''):
     m, f = np.loadtxt('bounds/' + boundID + '.txt', unpack=True)
@@ -76,6 +78,10 @@ def addConstraint(boundID, col='blue',x = 1e-30,y=1e-4,ang=0, linestyle='-', lab
     
     if (x > 1e-20):
         plt.text(x, y, labeltext.replace("_", " "), rotation=ang, fontsize=12, ha='center', va='center')
+        
+    interped_lim = np.interp(Mgrid, m, np.clip(f, 0,1), left=1, right=1)
+    envelope[interped_lim < envelope] = interped_lim[interped_lim < envelope]
+    
 
 def addSIGWprojections(col='red', linestyle='--'):
     plt.fill_between([6.6e-14, 6.6e-12], 5e-3, 1, color=col, alpha = alpha_val, linewidth=0)
@@ -94,6 +100,7 @@ def addSIGWprojections(col='red', linestyle='--'):
     plt.text(1e-14, 4e-3, "SIGWs", fontsize=12, ha='center', va='center')
 
 #-------------------------------------------    
+    
     
 plt.figure(figsize=(5,5))
 
@@ -154,6 +161,12 @@ ax_top.set_xticklabels([],minor=True)
 ax.text(0.5, 0.05, "Micro-lensing", va = "bottom", ha = "center", color='C0',  transform=ax.transAxes)
 
 plt.savefig(outfile, bbox_inches='tight')
+    
+    
+#Save envelope to file
+headertxt = "Envelope of microlensing bounds: " + ", ".join(bounds)
+headertxt += "\n Columns: PBH mass [Muns], PBH fraction f_PBH"
+np.savetxt("bounds/Microlensing.txt", np.c_[Mgrid, envelope], header=headertxt)
     
 plt.show()
 
