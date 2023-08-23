@@ -65,6 +65,7 @@ Please also get in touch to let me know you've used the code. That way I can kee
 
 An incomplete list of papers which make use of PBHbounds. Please get in touch if you've used the code or digitised bounds, so I can keep track!
 
+- *Constraints on the Abundance of PBHs from X-ray Quasar Microlensing Observations: Substellar to Planetary Mass Range*, Esteban-Gutiérrez et al., [arXiv:2307.07473](https://arxiv.org/abs/2307.07473)
 - *Primordial black holes from Higgs inflation with a Gauss-Bonnet coupling*, Kawaguchi & Tsujikawa, [arXiv:2211.13364](https://arxiv.org/abs/2211.13364)
 - *The Effect of Gravitational Lensing on Fast Transient Event Rates*, Sammons et al., [arXiv:2210.09487](https://arxiv.org/abs/2210.09487)
 - *Snowmass 2021 Cosmic Frontier White Paper: Primordial Black Hole Dark Matter*, Bird et al., [arXiv:2203.08967](https://arxiv.org/abs/2203.08967)  
