@@ -5,4 +5,7 @@
 Microlensing	C0	-	1e-5 2e-2	0	_
 Evaporation	C1	-	1e-15	1e-2	0	_
 FL-small	y	--	6e-16	4e-1	0	FL
-GRB-parallax	y	--	6e-14	1e-1	0	GRB_Lensing_Parallax
+GRB-parallax	y	--	6e-14	7e-2	0	GRB_Lensing_Parallax
+WhiteDwarfmicro	C0	--	1e-11	2e-2	0	WD
+XRPmicro	C0	--	9e-15	7e-1	0	XRP 
+GECCO		C1	--	2.5e-16	1e-2	82	GECCO
