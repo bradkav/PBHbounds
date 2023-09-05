@@ -16,6 +16,7 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
 - **FLø**: Femto-lensing of gamma-ray bursts - [arXiv:1204.2056](https://arxiv.org/abs/1204.2056)  
 - **FL-small†**: Femto-lensing of small gamma-ray bursts - [arXiv:1807.11495](https://arxiv.org/abs/1807.11495)  
 - **FRB**: Non-observation of lensing of Fast Radio Bursts - [arXiv:2003.13349](https://arxiv.org/abs/2003.13349)  
+- **GECCO†**: Projections for evaporation constraints from MeV-gamma ray telescope GECCO - [arXiv:2101.10370](https://arxiv.org/abs/2101.10370)
 - **GRB-parallax†**: Lensing parallax of 1000 GRBs (using spatially separated telescopes) - [arXiv:1908.00078](https://arxiv.org/abs/1908.00078)  
 - **GW-lensing†**: Microlensing of GWs by PBHs - [arXiv:1712.01396](https://arxiv.org/abs/1712.01396)  
 - **HSC**: Microlensing constraints from the Hyper-Supreme Cam - [arXiv:1701.02151](https://arxiv.org/abs/1701.02151), updated in [arXiv:1910.01285](https://arxiv.org/abs/1910.01285) and then again in [arXiv:2007.12697](https://arxiv.org/abs/2007.12697) 
@@ -49,8 +50,9 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
 - **SNe-Lensing**: Lensing of supernovae by PBHs - [arXiv:1712.02240](https://arxiv.org/abs/1712.02240)  
 - **SuperK**: Bounds from evaporation into neutrinos from SuperKamiokande - [arXiv:1912.01014](https://arxiv.org/abs/1912.01014)  
 - **UFdwarfs**: Constraints from the disruption of ultra-faint dwarfs - [arXiv:1605.03665](https://arxiv.org/abs/1605.03665)  
+- **WhiteDwarfmicro†**: Projected microlensing constraints assuming observation of 1000 White Dwarfs in the LMC - [arXiv:1905.06066](https://arxiv.org/abs/1905.06066)
 - **Voyager**: Constraints on PBH evaporation from electron/positron measurements by Voyager 1 probe - [arXiv:1807.03075](https://arxiv.org/abs/1807.03075)  
 - **WideBinaries**: Constraints from disruption of Wide Binaries - [arXiv:1406.5169](https://arxiv.org/abs/1406.5169)  
 - **WDø**: Constraints from the destruction of White Dwarfs by PBHs - [arXiv:1505.04444](https://arxiv.org/abs/1505.04444)   
 - **X-ray**: X-ray constraints on accreting PBHs in the Milky Way - [arXiv:1812.07967](https://arxiv.org/abs/1812.07967)  
-
+- **XRPmicro†**: Projected constraints from microlensing of X-ray pulsars - [arXiv:1812.01427](https://arxiv.org/abs/1812.01427)
