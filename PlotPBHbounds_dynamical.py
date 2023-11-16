@@ -73,6 +73,9 @@ if (DARKMODE):
         if (col == "C2"):
             colors[i] = "C6"
 
+Mgrid = np.geomspace(1e-5, 1e5, 1000)
+envelope = 1e10 + 0.0*Mgrid
+
 def addConstraint(boundID, col='blue',x = 1e-30,y=1e-4,ang=0, linestyle='-', labeltext=''):
     m, f = np.loadtxt('bounds/' + boundID + '.txt', unpack=True)
     if (boundID != "OGLE-hint"):
@@ -80,10 +83,13 @@ def addConstraint(boundID, col='blue',x = 1e-30,y=1e-4,ang=0, linestyle='-', lab
     linewidth = 1.0
     if (boundID in ["Microlensing", "Evaporation"]):
         linewidth=2.0
-    plt.plot(m, np.clip(f, 0,1), color=col, lw=linewidth, linestyle=linestyle)
+    plt.plot(m, f, color=col, lw=linewidth, linestyle=linestyle)
     
     if (x > 1e-20):
         plt.text(x, y, labeltext.replace("_", " "), rotation=ang, fontsize=12, ha='center', va='center')
+        
+    interped_lim = 10**np.interp(np.log10(Mgrid), np.log10(m), np.log10(f), left=10, right=10)
+    envelope[interped_lim < envelope] = interped_lim[interped_lim < envelope]
 
 def addSIGWprojections(col='red', linestyle='--'):
     plt.fill_between([6.6e-14, 6.6e-12], 5e-3, 1, color=col, alpha = alpha_val, linewidth=0)
@@ -161,7 +167,16 @@ ax_top.set_xticklabels([],minor=True)
 
 ax.text(0.5, 0.05, "Dynamical", va = "bottom", ha = "center", color=dyn_color,  transform=ax.transAxes)
 
+#Plot the envelope
+plt.plot(Mgrid, envelope, linestyle='--', color='k')
+
 plt.savefig(outfile, bbox_inches='tight')
+    
+#Save envelope to file
+headertxt = "Envelope of dynamical bounds: " + ", ".join(bounds)
+headertxt += "\n Columns: PBH mass [Muns], PBH fraction f_PBH"
+np.savetxt("bounds/Dynamical.txt", np.c_[Mgrid, envelope], header=headertxt)
+    
     
 plt.show()
 

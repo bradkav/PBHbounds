@@ -2,6 +2,7 @@
 #LIGO-HMR C4 - 0.2 7e-3 -50 High-mass-ratio_Mergers*
 #LIGO-perturbed	C4	-	20	2e-1	0	Mergers_(perturbed)
 LIGO	C4	-	1e1	2.5e-3	-41	Mergers
-LIGO-SGWB	C4	-	5	3e-2	-30	Stochastic_background
-LIGO-subsolar	C4	-	0.2 	1.5e-2 	-70	Subsolar_mergers
+LIGO-SGWB-O2	C4	-	5	3e-2	-30	_
+LIGO-SGWB-O3	C4	-	5	3e-2	-30	Stochastic_background
+LIGO-subsolar	C4	-	0.2 	1e-2 	-50	Subsolar_mergers
 
