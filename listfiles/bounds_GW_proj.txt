@@ -1,0 +1,9 @@
+# Bound, colour, linestyle, x, y, rotation
+#LIGO-HMR C4 - 0.2 7e-3 -50 High-mass-ratio_Mergers*
+#LIGO-perturbed	C4	-	20	2e-1	0	Mergers_(perturbed)
+LIGO	C4	-	1e1	2.5e-3	-41	Mergers
+LIGO-SGWB-O2	C4	-	5	3e-2	-30	_
+LIGO-SGWB-O3	C4	-	5	3e-2	-30	Stochastic_background
+LIGO-subsolar	C4	-	0.2 	1e-2 	-50	Subsolar_mergers
+3G-GW-1y	C4	--	0.1	3e-4	-30	3G_1y
+3G-GW-10y	C4	:	0.05	2e-5	-30	3G_10y

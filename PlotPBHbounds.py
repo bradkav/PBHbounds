@@ -62,6 +62,7 @@ lines = np.loadtxt(listfile, usecols=(2,), dtype=str)
 xlist = np.loadtxt(listfile, usecols=(3,))
 ylist = np.loadtxt(listfile, usecols=(4,))
 anglist = np.loadtxt(listfile, usecols=(5,))
+labellist = np.loadtxt(listfile, usecols=(6,), dtype=str)
 
 if (DARKMODE):
     for i, col in enumerate(colors):
@@ -70,17 +71,17 @@ if (DARKMODE):
         if (col == "C2"):
             colors[i] = "C6"
 
-def addConstraint(boundID, col='blue',x = 1e-30,y=1e-4,ang=0, linestyle='-'):
+def addConstraint(boundID, col='blue',x = 1e-30,y=1e-4,ang=0, linestyle='-', labeltext=''):
     m, f = np.loadtxt('bounds/' + boundID + '.txt', unpack=True)
     if (boundID != "OGLE-hint"):
-        plt.fill_between(m , np.clip(f, 0,1), 1, alpha=alpha_val, color=col)
+        plt.fill_between(m , f, 1e10, alpha=alpha_val, color=col)
     linewidth = 1.0
-    if (boundID in ["Microlensing", "Evaporation"]):
-        linewidth=2.0
-    plt.plot(m, np.clip(f, 0,1), color=col, lw=linewidth, linestyle=linestyle)
+    #if (boundID in ["Microlensing", "Evaporation"]):
+    #    linewidth=2.0
+    plt.plot(m, f, color=col, lw=linewidth, linestyle=linestyle)
     
     if (x > 1e-20):
-        plt.text(x, y, boundID, rotation=ang, fontsize=12, ha='center', va='center')
+        plt.text(x, y, labeltext.replace("_", " "), rotation=ang, fontsize=12, ha='center', va='center')
 
 def addSIGWprojections(col='red', linestyle='--'):
     plt.fill_between([6.6e-14, 6.6e-12], 5e-3, 1, color=col, alpha = alpha_val, linewidth=0)
@@ -114,17 +115,20 @@ for i in range(len(bounds)):
     if (bounds[i] == "SIGWs"):
         addSIGWprojections(col=colors[i], linestyle=lines[i])
     else:
-        addConstraint(bounds[i], col = colors[i], x = xlist[i], y = ylist[i], ang=anglist[i], linestyle=lines[i])
+        addConstraint(bounds[i], col = colors[i], x = xlist[i], y = ylist[i], ang=anglist[i], linestyle=lines[i], labeltext=labellist[i])
 
 
+Msun_min = 1e-18
+Msun_max = 1e4
 
 #Plotting stuff
-plt.axhspan(1, 1.5, facecolor='grey', alpha=0.5)
+plt.axhspan(1, 1.5, facecolor='grey', alpha=0.5, zorder=10)
     
-plt.ylim(1e-4, 1.5)
-plt.xlim(1e-18, 1e4)
+plt.ylim(5e-6, 1.5)
+plt.xlim(Msun_min, Msun_max)
     
-ax.set_xticks(np.logspace(-18, 4, 23),minor=True)
+xticks = 10**np.arange(np.floor(np.log10(Msun_min)), np.ceil(np.log10(Msun_max))+1)
+ax.set_xticks(xticks, minor=True)
 ax.set_xticklabels([], minor=True)
     
 ax.set_xlabel(r'$M_\mathrm{PBH}$ [$M_\odot$]')
@@ -136,9 +140,10 @@ ax_top.set_xscale('log')
 ax_top.set_xlim(ax.get_xlim())
 ax_top.set_xlabel(r'$M_\mathrm{PBH}$ [g]', labelpad=7)
 
-g_ticks_minor = np.geomspace(1e15, 1e37, 23)
-g_ticks = g_ticks_minor[::3]
 g_to_Msun = 1/1.989e+33
+
+g_ticks_minor =  10**np.arange(np.floor(np.log10(Msun_min/g_to_Msun)), np.ceil(np.log10(Msun_max/g_to_Msun))+1)
+g_ticks = g_ticks_minor[::3]
 
 g_tick_labels = [r"$10^{" + str(int(np.log10(x))) +"}$" for x in g_ticks]
 
