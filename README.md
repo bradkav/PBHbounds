@@ -65,13 +65,17 @@ Please also get in touch to let me know you've used the code. That way I can kee
 
 An incomplete list of papers which make use of PBHbounds. Please get in touch if you've used the code or digitised bounds, so I can keep track!
 
+- *Limits on the Primordial Black Holes Dark Matter with future MeV detectors*, Xie, Liu, Liu, Cai & Yang, [arXiv:2401.06440](https://arxiv.org/abs/2401.06440)  
 - *Primordial Black Holes as Near Infrared Background sources*, Manzoni, Ziparo, Gallerani & Ferrara, [arXiv:2310.19945](https://arxiv.org/abs/2310.19945)  
 - *On the inflationary interpretation of the nHz gravitational-wave background*, Frosina & Urbano, [arXiv:2308.06915](https://arxiv.org/abs/2308.06915)  
 - *Constraints on the Abundance of PBHs from X-ray Quasar Microlensing Observations: Substellar to Planetary Mass Range*, Esteban-Gutiérrez et al., [arXiv:2307.07473](https://arxiv.org/abs/2307.07473)
+- *Primordial black hole dark matter from catastrogenesis with unstable pseudo-Goldstone bosons*, Gelmini, Hyman, Simpson & Vitagliano [arXiv:2303.14107](https://arxiv.org/abs/2303.14107)
 - *Primordial Black Hole Formation in Non-Standard Post-Inflationary Epochs*, Bhattacharya, [arXiv:2302.12690](https://arxiv.org/abs/2302.12690)  
 - *Generation of primordial black holes from an inflation model with modified dispersion relation*, Qiu, Wang & Zheng, [arXiv:2212.03403](https://arxiv.org/abs/2212.03403)  
 - *Primordial black holes from Higgs inflation with a Gauss-Bonnet coupling*, Kawaguchi & Tsujikawa, [arXiv:2211.13364](https://arxiv.org/abs/2211.13364)
+- *Primordial Black Hole Formation during a Strongly Coupled Crossover*, Escrivà & Subils, [arXiv:2211.15674](https://arxiv.org/abs/2211.15674)  
 - *The Effect of Gravitational Lensing on Fast Transient Event Rates*, Sammons et al., [arXiv:2210.09487](https://arxiv.org/abs/2210.09487)
+- *Enhancing gravitational wave anisotropies with peaked scalar sources*, Dimastrogiovanni et al., [arXiv:2205.05644](https://arxiv.org/abs/2205.05644)
 - *Snowmass 2021 Cosmic Frontier White Paper: Primordial Black Hole Dark Matter*, Bird et al., [arXiv:2203.08967](https://arxiv.org/abs/2203.08967)  
 - *Limits on Primordial Black Holes from M87*, Silk & Stodolsky, [arXiv:2201.03591](https://arxiv.org/abs/2201.03591)  
 - *Shedding light on Dark Matter through 21 cm Cosmology and Reionization constraints*, Villanueva-Domingo, [arXiv:2112.08201](https://arxiv.org/abs/2112.08201)
