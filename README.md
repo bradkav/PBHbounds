@@ -65,6 +65,7 @@ Please also get in touch to let me know you've used the code. That way I can kee
 
 An incomplete list of papers which make use of PBHbounds. Please get in touch if you've used the code or digitised bounds, so I can keep track!
 
+- *Primordial Black Holes as a dark matter candidate -- a brief overview*, Green, [arXiv:2402.15211](https://arxiv.org/abs/2402.15211)
 - *Limits on the Primordial Black Holes Dark Matter with future MeV detectors*, Xie, Liu, Liu, Cai & Yang, [arXiv:2401.06440](https://arxiv.org/abs/2401.06440)  
 - *Primordial Black Holes as Near Infrared Background sources*, Manzoni, Ziparo, Gallerani & Ferrara, [arXiv:2310.19945](https://arxiv.org/abs/2310.19945)  
 - *On the inflationary interpretation of the nHz gravitational-wave background*, Frosina & Urbano, [arXiv:2308.06915](https://arxiv.org/abs/2308.06915)  
