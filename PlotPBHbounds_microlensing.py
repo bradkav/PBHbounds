@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 import argparse
+import tools
 
 
 #Specify the plot style
@@ -68,9 +69,9 @@ Mgrid = np.geomspace(1e-12, 1e5, 1000)
 envelope = 1e10 + 0.0*Mgrid
 
 def addConstraint(boundID, col='blue',x = 1e-30,y=1e-4,ang=0, linestyle='-', labeltext=''):
-    m, f = np.loadtxt('bounds/' + boundID + '.txt', unpack=True)
+    m, f = tools.load_bound(boundID)
     if (boundID != "OGLE-hint"):
-        plt.fill_between(m , np.clip(f, 0,1), 1, alpha=alpha_val, color=col)
+        plt.fill_between(m , f, 1, alpha=alpha_val, color=col)
     linewidth = 1.0
     if (boundID in ["Microlensing", "Evaporation"]):
         linewidth=2.0

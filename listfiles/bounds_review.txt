@@ -1,6 +1,6 @@
 # Bound, colour, linestyle, x, y, rotation
-Microlensing	C0	-	1e-5 2e-2	0
+Microlensing	C0	-	5e-6 8e-3	0
 Evaporation	C1	-	4e-15	1e-2	0
 Dynamical	C2	-	1e3	1e-2	-70
 Accretion	C3	-	6e1	2e-3	-90
-GWs	C4	-	2e0	6e-3	-72
+GWs	C4	-	2e0	1.5e-3	0

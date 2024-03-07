@@ -4,7 +4,7 @@
 Radio	b	-	5e1	8e-2	-90
 CMB	b	-	1e2	2e-3	-82
 UFdwarfs	b	-	2e3	2.5e-2	-72
-OGLE	b	-	0.6e-3	2e-1	0
+OGLE-strict	b	-	0.6e-3	2e-1	0
 EGRB	b	-	5e-18	3e-2	85
 K	b	-	1e-8	4e-1	0	
 NS	y	-	2.5e-14	6e-2	0

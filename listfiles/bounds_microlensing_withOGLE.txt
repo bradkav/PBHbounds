@@ -1,5 +1,5 @@
 # Bound, colour, linestyle, x, y, rotation
-OGLE	C0	-	0.6e-3	2e-1	0	OGLE
+OGLE-strict	C0	-	0.6e-3	2e-1	0	OGLE
 SNe	C0	-	3e2	7e-1	0	SNe
 M	C0	-	3	5e-1	0	M
 HSC	C0	-	5e-9	5e-2	0	HSC

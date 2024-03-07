@@ -13,7 +13,7 @@ LeoTevap	C1	-	2.5e-17	2.7e-2	67	Dwarf_heating
 SuperK	C1	-	5e-17	2e-3	0	_
 WideBinaries	C2	-	5e2	3e-1	0	Wide_binaries
 UFdwarfs	C2	-	2e3	2.5e-2	-55	Dwarf_galaxies
-OGLE	C0	-	0.6e-3	2e-1	0	OGLE
+OGLE-strict	C0	-	0.6e-3	2e-1	0	OGLE
 SNe	C0	-	3e2	7e-1	0	SNe
 M	C0	-	3	5e-1	0	M
 HSC	C0	-	5e-9	5e-2	0	HSC
