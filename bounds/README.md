@@ -5,6 +5,7 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
 
 - **3G-GW-1y**, **3G-GW-10y**†: Projected constraints from 3G Gravitational Wave detectors (based on 1 year and 10 years of operation) - [arXiv:2111.06990](https://arxiv.org/abs/2111.06990)  
 - **511keV**: Constraints on PBH evaporation from the 511 keV gamma ray line - [arXiv:1906.09994](https://arxiv.org/abs/1906.09994) and [arXiv:1906.07740](https://arxiv.org/abs/1906.07740)  
+- **AMS**: Constraints from AMS-02, due to positron + electron production by evaporation - [arXiv:2403.04988](https://arxiv.org/abs/2403.04988)  
 - **Comptel**: Constraints from PBH evaporation using Comptel GC observations - [arXiv:2010.04797](https://arxiv.org/abs/2010.04797)  
 - **CMB**: Constraints from modification of the CMB spectrum due to accreting PBHs, including particle DM accretion - [arXiv:2002.10771](https://arxiv.org/abs/2002.10771)  
 - **CMBevap**: Constraints from modification of the CMB spectrum due to evaporating PBHs - [arXiv:1612.07738](https://arxiv.org/abs/1612.07738)

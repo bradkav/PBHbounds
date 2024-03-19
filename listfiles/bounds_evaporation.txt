@@ -8,3 +8,4 @@ INTEGRAL	C1	-	5.3e-17	2.3e-1	60	INTEGRAL
 LeoTevap	C1	-	2.5e-17	2.7e-2	67	Dwarf_heating
 SuperK	C1	-	5e-17	2e-3	0	_
 Comptel C1	-	1.1e-17	6e-4	65	COMPTEL
+AMS	C1	-	9e-18 1e-1	80	AMS-02

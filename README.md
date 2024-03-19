@@ -44,6 +44,7 @@ which is roughly inspired by plots from [arXiv:1811.11158](https://arxiv.org/abs
 ### Versions
 
 **Updates:**
+- 19/03/2024: Added new OGLE and AMS-02 bounds.
 - 22/03/2022: Added new bounds from microlensing of quasars ([arXiv:2203.04777](https://arxiv.org/abs/2203.04777))
 - 07/03/2022: Added long duration microlensing constraints from [arXiv:2202.13819](https://arxiv.org/abs/2202.13819)  
 - 22/02/2022: Added new EDGES 21cm constraints from Mittal et al. (2021), presented in [arXiv:2107.02190](https://arxiv.org/abs/2107.02190)  
