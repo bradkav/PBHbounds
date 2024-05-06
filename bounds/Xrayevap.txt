@@ -1,5 +1,5 @@
 # Black and Blue lines from Fig. 4 of https://arxiv.org/abs/2404.17119. 
-# Columns 1 - 5 give f_PBH constraint for various assumptions
+# Columns 2 - 5 give f_PBH constraint for various assumptions
 # M_PBH [Msun]     withDPL_fPs0_withSMM    woDPL_fPs0_withSMM    withDPL_fPs1_withSMM    woDPL_fPs1_withSMM
 4.52507e-18 2.64679e-05 3.80890e-05 4.59029e-05 6.23907e-05
 5.02785e-18 2.64679e-05 3.80890e-05 4.59029e-05 6.23907e-05
