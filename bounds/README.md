@@ -57,5 +57,6 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
 - **Voyager**: Constraints on PBH evaporation from electron/positron measurements by Voyager 1 probe - [arXiv:1807.03075](https://arxiv.org/abs/1807.03075)  
 - **WideBinaries**: Constraints from disruption of Wide Binaries - [arXiv:1406.5169](https://arxiv.org/abs/1406.5169)  
 - **WDø**: Constraints from the destruction of White Dwarfs by PBHs - [arXiv:1505.04444](https://arxiv.org/abs/1505.04444)   
-- **X-ray**: X-ray constraints on accreting PBHs in the Milky Way - [arXiv:1812.07967](https://arxiv.org/abs/1812.07967)  
+- **X-ray**: X-ray constraints on accreting PBHs in the Milky Way - [arXiv:1812.07967](https://arxiv.org/abs/1812.07967)   
+- **Xray-Evap**: X-ray background constraint from evaporating PBHs (https://arxiv.org/abs/2404.17119)   
 - **XRPmicro†**: Projected constraints from microlensing of X-ray pulsars - [arXiv:1812.01427](https://arxiv.org/abs/1812.01427)

@@ -44,6 +44,7 @@ which is roughly inspired by plots from [arXiv:1811.11158](https://arxiv.org/abs
 ### Versions
 
 **Updates:**
+- 06/05/2024: Added X-ray evaporation bounds (`Xrayevap`) ([arXiv:2404.17119](https://arxiv.org/abs/2404.17119))
 - 19/03/2024: Added new AMS-02 bounds ([arXiv:2403.04988](https://arxiv.org/abs/2403.04988))  
 - 07/03/2024: Added new OGLE bounds from ([arXiv:2403.02398](https://arxiv.org/abs/2403.02398), [arXiv:2403.02386](https://arxiv.org/abs/2403.02386))
 - 22/03/2022: Added new bounds from microlensing of quasars ([arXiv:2203.04777](https://arxiv.org/abs/2203.04777))
