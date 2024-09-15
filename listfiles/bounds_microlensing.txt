@@ -7,3 +7,4 @@ EROS	C0	-	2e-2	2.5e-2	0	EROS
 Icarus  C0	-	5e-2	1.02e-1	0	Icarus
 Microlensing-LongDuration	C0	-	3e1	2.2e-1	0	Long
 Quasars-Xray	C0	-	1e2	8.5e-3	0	Quasars
+FRB-Leung2022	C0	-	5e-4	0.55	0	FRB
