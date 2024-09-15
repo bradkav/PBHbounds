@@ -1,0 +1,12 @@
+# Benchmark CMB accretion bound using the Park-Ricotti Model in the presence of dark matter mini-halos. Shown as the dashed red line from figure 6 of https://arxiv.org/abs/2403.18895
+#Columns: PBH mass [Msun], f_PBH
+10 0.087839784
+21 0.025713192
+46 0.0069290986
+100 0.0023269064  
+215 0.00074780484
+464 0.00025082902
+1000 7.8273735e-05
+2154 1.5856993e-05
+4642 2.6860554e-06
+10000 6.4622012e-07
