@@ -4,7 +4,8 @@ Check each individual file to find out precisely which constraint I'm using.
 Constraints which are not *strictly* valid for monochromatic mass functions are marked with an asterisk (*). Projected constraints are marked with a dagger (†). Constraints which are now generally discredited are marked with a 'slashed zero' (ø).
 
 - **3G-GW-1y**, **3G-GW-10y**†: Projected constraints from 3G Gravitational Wave detectors (based on 1 year and 10 years of operation) - [arXiv:2111.06990](https://arxiv.org/abs/2111.06990)  
-- **511keV**: Constraints on PBH evaporation from the 511 keV gamma ray line - [arXiv:1906.09994](https://arxiv.org/abs/1906.09994) and [arXiv:1906.07740](https://arxiv.org/abs/1906.07740)  
+- **511keV**: Constraints on PBH evaporation from the 511 keV gamma ray line - [arXiv:1906.09994](https://arxiv.org/abs/1906.09994) and [arXiv:1906.07740](https://arxiv.org/abs/1906.07740) 
+- **511keV-DeLaTorreLuque2024**: Updated PBH evaporation constraints from 511 keV line - [arXiv:2406.11949](https://arxiv.org/abs/2406.11949)  
 - **AMS**: Constraints from AMS-02, due to positron + electron production by evaporation - [arXiv:2403.04988](https://arxiv.org/abs/2403.04988)  
 - **Comptel**: Constraints from PBH evaporation using Comptel GC observations - [arXiv:2010.04797](https://arxiv.org/abs/2010.04797)  
 - **CMB**: Constraints from modification of the CMB spectrum due to accreting PBHs, including particle DM accretion - [arXiv:2002.10771](https://arxiv.org/abs/2002.10771)  
@@ -55,8 +56,10 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
 - **UFdwarfs**: Constraints from the disruption of ultra-faint dwarfs - [arXiv:1605.03665](https://arxiv.org/abs/1605.03665)  
 - **WhiteDwarfmicro†**: Projected microlensing constraints assuming observation of 1000 White Dwarfs in the LMC - [arXiv:1905.06066](https://arxiv.org/abs/1905.06066)
 - **Voyager**: Constraints on PBH evaporation from electron/positron measurements by Voyager 1 probe - [arXiv:1807.03075](https://arxiv.org/abs/1807.03075)  
+- **Voyager-DeLaTorreLuque2024**: Updated constraints on PBH evaporation from electron/positron measurements by Voyager 1 probe - [arXiv:2406.11949](https://arxiv.org/abs/2406.11949)  
 - **WideBinaries**: Constraints from disruption of Wide Binaries - [arXiv:1406.5169](https://arxiv.org/abs/1406.5169)  
 - **WDø**: Constraints from the destruction of White Dwarfs by PBHs - [arXiv:1505.04444](https://arxiv.org/abs/1505.04444)   
 - **X-ray**: X-ray constraints on accreting PBHs in the Milky Way - [arXiv:1812.07967](https://arxiv.org/abs/1812.07967)   
-- **Xray-Evap**: X-ray background constraint from evaporating PBHs (https://arxiv.org/abs/2404.17119)   
+- **Xrayevap**: X-ray background constraint from evaporating PBHs - [arXiv:2404.17119](https://arxiv.org/abs/2404.17119)  
+- **Xrayevap-DeLaTorreLuque2024**: X-ray background constraint from evaporating PBHs (with XMM-Newton) - [arXiv:2406.11949](https://arxiv.org/abs/2406.11949)  
 - **XRPmicro†**: Projected constraints from microlensing of X-ray pulsars - [arXiv:1812.01427](https://arxiv.org/abs/1812.01427)
