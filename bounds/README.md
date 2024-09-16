@@ -63,5 +63,10 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
 - **WDø**: Constraints from the destruction of White Dwarfs by PBHs - [arXiv:1505.04444](https://arxiv.org/abs/1505.04444)   
 - **X-ray**: X-ray constraints on accreting PBHs in the Milky Way - [arXiv:1812.07967](https://arxiv.org/abs/1812.07967)   
 - **Xrayevap**: X-ray background constraint from evaporating PBHs - [arXiv:2404.17119](https://arxiv.org/abs/2404.17119)  
-- **Xrayevap-DeLaTorreLuque2024**: X-ray background constraint from evaporating PBHs (with XMM-Newton) - [arXiv:2406.11949](https://arxiv.org/abs/2406.11949)  
-- **XRPmicro†**: Projected constraints from microlensing of X-ray pulsars - [arXiv:1812.01427](https://arxiv.org/abs/1812.01427)
+- **Xrayevap-DeLaTorreLuque2024**: X-ray background constraint from evaporating PBHs (with XMM-Newton) - [arXiv:2406.11949](https://arxiv.org/abs/2406.11949)
+- **Xraylensing-NICER**: Constraints from X-ray microlensing with NICER (1.74d) - [arXiv:2405.20365](https://arxiv.org/abs/2405.20365)    
+- **Xraylensing-eXTP-proj†**: Projected constraints from microlensing of X-ray pulsars - [arXiv:1812.01427](https://arxiv.org/abs/1812.01427)
+- **Xraylensing-NICER-proj†**: Projected constraints from X-ray microlensing with NICER (60d) - [arXiv:2405.20365](https://arxiv.org/abs/2405.20365)   
+- **Xraylensing-STROBEX-proj†**: Projected constraints from X-ray microlensing with STROBE-X (30d) - [arXiv:2405.20365](https://arxiv.org/abs/2405.20365)  
+- **Xraylensing-Xmu-proj†**: Projected constraints from X-ray microlensing with Xmu (30d) - [arXiv:2405.20365](https://arxiv.org/abs/2405.20365)  
+

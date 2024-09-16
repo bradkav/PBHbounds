@@ -44,6 +44,7 @@ which is roughly inspired by plots from [arXiv:1811.11158](https://arxiv.org/abs
 ### Versions
 
 **Updates:**
+- 16/09/2024: Added new constraints and projections from microlensing of X-rays (`Xraylensing`) from [arXiv:2405.20365](https://arxiv.org/abs/2405.20365)  
 - 15/09/2024: Added new Evaporation constraints from [arXiv:2406.11949](https://arxiv.org/abs/2406.11949); FRB Lensing constraints from [arXiv:2204.06001](https://arxiv.org/abs/2204.06001); CMB accretion bounds from [arXiv:2403.18895](https://arxiv.org/abs/2403.18895)  
 - 06/05/2024: Added X-ray evaporation bounds (`Xrayevap`) ([arXiv:2404.17119](https://arxiv.org/abs/2404.17119))
 - 19/03/2024: Added new AMS-02 bounds ([arXiv:2403.04988](https://arxiv.org/abs/2403.04988))  
@@ -69,8 +70,10 @@ Please also get in touch to let me know you've used the code. That way I can kee
 
 An incomplete list of papers which make use of PBHbounds. Please get in touch if you've used the code or digitised bounds, so I can keep track!
 
+- *The History of Primordial Black Holes*, Carr & Green, [arXiv:2406.05736](https://arxiv.org/abs/2406.05736)  
 - *Refining Galactic primordial black hole evaporation constraints*, De la Torre Luque, Koechler & Balaji, [arXiv:2406.11949](https://arxiv.org/abs/2406.11949)
 - *Revisiting Primordial Black Hole Capture by Neutron Stars*, Caiozzo, Bertone & Kühnel, [arXiv:2404.08057](https://arxiv.org/abs/2404.08057)  
+- *Feedback in the dark: a critical examination of CMB bounds on primordial black holes*, Agius et al, [arXiv:2403.18895](https://arxiv.org/abs/2403.18895)  
 - *Primordial Black Holes as a dark matter candidate -- a brief overview*, Green, [arXiv:2402.15211](https://arxiv.org/abs/2402.15211)
 - *Limits on the Primordial Black Holes Dark Matter with future MeV detectors*, Xie, Liu, Liu, Cai & Yang, [arXiv:2401.06440](https://arxiv.org/abs/2401.06440)  
 - *Primordial Black Holes as Near Infrared Background sources*, Manzoni, Ziparo, Gallerani & Ferrara, [arXiv:2310.19945](https://arxiv.org/abs/2310.19945)  
