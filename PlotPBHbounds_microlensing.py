@@ -122,7 +122,7 @@ for i in range(len(bounds)):
 #Plotting stuff
 plt.axhspan(1, 1.5, facecolor='grey', alpha=0.5)
     
-plt.ylim(1e-3, 1.5)
+plt.ylim(5e-4, 1.5)
 
 xmin = 1e-12
 xmax = 1e4

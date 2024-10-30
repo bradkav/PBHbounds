@@ -44,6 +44,7 @@ which is roughly inspired by plots from [arXiv:1811.11158](https://arxiv.org/abs
 ### Versions
 
 **Updates:**
+- 30/10/2024: Added new constraints from high-cadence OGLE observations from [arXiv:2410.06251](https://arxiv.org/abs/2410.06251)  
 - 16/09/2024: Added new constraints and projections from microlensing of X-rays (`Xraylensing`) from [arXiv:2405.20365](https://arxiv.org/abs/2405.20365)  
 - 15/09/2024: Added new Evaporation constraints from [arXiv:2406.11949](https://arxiv.org/abs/2406.11949); FRB Lensing constraints from [arXiv:2204.06001](https://arxiv.org/abs/2204.06001); CMB accretion bounds from [arXiv:2403.18895](https://arxiv.org/abs/2403.18895)  
 - 06/05/2024: Added X-ray evaporation bounds (`Xrayevap`) ([arXiv:2404.17119](https://arxiv.org/abs/2404.17119))

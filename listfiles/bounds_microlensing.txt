@@ -1,10 +1,11 @@
 # Bound, colour, linestyle, x, y, rotation
-OGLE-strict	C0	-	8e-6	5e-3	0	OGLE
+OGLE-strict	C0	-	6	4e-3	0	OGLE
+OGLE-highcadence	C0	-	1.7e-1	1.5e-3	0	OGLE_high-cadence
 SNe	C0	-	3e2	7e-1	0	SNe
 M	C0	-	3	5e-1	0	M
 HSC	C0	-	5e-9	5e-2	0	HSC
 EROS	C0	-	2e-2	2.5e-2	0	EROS
 Icarus  C0	-	5e-2	1.02e-1	0	Icarus
 Microlensing-LongDuration	C0	-	3e1	2.2e-1	0	Long
-Quasars-Xray	C0	-	1e2	8.5e-3	0	Quasars
+Quasars-Xray	C0	-	1.2e2	8.5e-3	0	Quasars
 FRB-Leung2022	C0	-	5e-4	0.55	0	FRB

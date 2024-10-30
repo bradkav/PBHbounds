@@ -72,7 +72,7 @@ if (DARKMODE):
             colors[i] = "C6"
 
 
-Mgrid = np.geomspace(1e-2, 1e3, 1000)
+Mgrid = np.geomspace(1e-2, 1e4, 1000)
 envelope = 1e10 + 0.0*Mgrid
 
 def addConstraint(boundID, col='blue',x = 1e-30,y=1e-4,ang=0, linestyle='-', labeltext=''):

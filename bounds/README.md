@@ -43,6 +43,7 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
 - **Microlensing-LongDuration**: Constraints from long-duration microlensing, combining EROS and MACHO results - [arXiv:2202.13819](https://arxiv.org/abs/2202.13819)  
 - **NANOGrav**: Scalar-induced GWs with NANOGrav - [arXiv:1910.12239](https://arxiv.org/abs/1910.12239)
 - **NSø**: Neutron star capture and destruction - [arXiv:1301.4984](https://arxiv.org/abs/1301.4984)  
+- **OGLE-highcadence**: Constraints on planetrary mass PBHs from high-cadence OGLE observations - [arXiv:2410.06251](https://arxiv.org/pdf/2410.06251)  
 - **OGLE-strict**: Most recent OGLE bounds from 20 year observations (OGLE-III + OGLE-IV), assuming no PBH-induced microlensing events. Other options are **OGLE-MW1** and **OGLE-MW2**, which correspond to the Cautun+ (2020) and Han & Gould (2003) Milky Way models respectively - [arXiv:2403.02398](https://arxiv.org/abs/2403.02398), [arXiv:2403.02386](https://arxiv.org/abs/2403.02386)
 - **OGLE-hint**: Hint for Earth mass PBHs with OGLE - [arXiv:1901.07120](https://arxiv.org/abs/1901.07120)
 - **OGLE-2019**: Microlensing constraints from OGLE 5-year observations - [arXiv:1901.07120](https://arxiv.org/abs/1901.07120)  
