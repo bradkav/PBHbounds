@@ -62,7 +62,11 @@ lines = np.loadtxt(listfile, usecols=(2,), dtype=str)
 xlist = np.loadtxt(listfile, usecols=(3,))
 ylist = np.loadtxt(listfile, usecols=(4,))
 anglist = np.loadtxt(listfile, usecols=(5,))
-labellist = np.loadtxt(listfile, usecols=(6,), dtype=str)
+
+try:
+    labellist = np.loadtxt(listfile, usecols=(6,), dtype=str)
+except:
+    labellist = bounds
 
 if (DARKMODE):
     for i, col in enumerate(colors):

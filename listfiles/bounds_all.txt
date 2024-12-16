@@ -1,4 +1,4 @@
-# Bound, colour, linestyle, x, y, rotation
+# Bound, colour, linestyle, x, y, rotation, label
 #Leo-I	g	-	1e3	1e-4	-70
 #FL	y	-	5e-16	2.5e-1	0
 Radio	b	-	5e1	8e-2	-90
@@ -17,7 +17,7 @@ PTA-Shapiro	b	--	1e-3	0.8	0
 EROS	b	-	1e-2	8e-2	0
 LIGO	r	-	1e1	2e-3	-75
 LIGO-subsolar	r	-	.5 	.01 	-75
-LIGO-SGWB	r	-	10	2e-2	-60
+LIGO-SGWB-O3	r	-	10	2e-2	-60
 NANOGrav	r	-	2e-2	1e-2	0
 GW-Lensing	r	--	1e3	2e-1	-70
 PBH-EMRIs	r	--	2e-6	0.3	-76
