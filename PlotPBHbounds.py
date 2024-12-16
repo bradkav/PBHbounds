@@ -66,6 +66,7 @@ anglist = np.loadtxt(listfile, usecols=(5,))
 try:
     labellist = np.loadtxt(listfile, usecols=(6,), dtype=str)
 except:
+    print("> Problem loading labels in column 6 of listfile. Using boundIDs instead...")
     labellist = bounds
 
 if (DARKMODE):
