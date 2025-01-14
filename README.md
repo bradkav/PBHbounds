@@ -44,6 +44,7 @@ which is roughly inspired by plots from [arXiv:1811.11158](https://arxiv.org/abs
 ### Versions
 
 **Updates:**
+- 14/01/2025: Added new combined constraints on the SWGB from LIGO O1+O2+O3 from [arXiv:2412.18318](https://arxiv.org/abs/2412.18318)  
 - 30/10/2024: Added new constraints from high-cadence OGLE observations from [arXiv:2410.06251](https://arxiv.org/abs/2410.06251)  
 - 16/09/2024: Added new constraints and projections from microlensing of X-rays (`Xraylensing`) from [arXiv:2405.20365](https://arxiv.org/abs/2405.20365)  
 - 15/09/2024: Added new Evaporation constraints from [arXiv:2406.11949](https://arxiv.org/abs/2406.11949); FRB Lensing constraints from [arXiv:2204.06001](https://arxiv.org/abs/2204.06001); CMB accretion bounds from [arXiv:2403.18895](https://arxiv.org/abs/2403.18895)  
@@ -71,6 +72,7 @@ Please also get in touch to let me know you've used the code. That way I can kee
 
 An incomplete list of papers which make use of PBHbounds. Please get in touch if you've used the code or digitised bounds, so I can keep track!
 
+- *Search for a gravitational wave background from primordial black hole binaries using data from the first three LIGO-Virgo-KAGRA observing runs*, Boybeyi et al., [arXiv:2412.18318](https://arxiv.org/abs/2412.18318)  
 - *The History of Primordial Black Holes*, Carr & Green, [arXiv:2406.05736](https://arxiv.org/abs/2406.05736)  
 - *Refining Galactic primordial black hole evaporation constraints*, De la Torre Luque, Koechler & Balaji, [arXiv:2406.11949](https://arxiv.org/abs/2406.11949)
 - *Revisiting Primordial Black Hole Capture by Neutron Stars*, Caiozzo, Bertone & Kühnel, [arXiv:2404.08057](https://arxiv.org/abs/2404.08057)  

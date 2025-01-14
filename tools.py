@@ -12,6 +12,9 @@ def load_bound(boundID):
     elif (boundID == "OGLE-MW2"):
         m, f = np.loadtxt('bounds/OGLE.txt', unpack=True, usecols=(0, 3))
         
+    elif (boundID == "LIGO-SGWB-O1-O2-O3"):
+        m, f = np.loadtxt('bounds/LIGO-SGWB-O1-O2-O3.txt', unpack=True, usecols=(0, 1))
+        
     elif (boundID == "Xrayevap"):
         m, f = np.loadtxt('bounds/Xrayevap.txt', unpack=True, usecols=(0, 4))
         

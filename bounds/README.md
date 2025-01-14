@@ -37,6 +37,7 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
 - **LIGO-subsolar**: Constraints on PBH fraction from direct searches for gravitational waves from subsolar mass binary black hole mergers in LVK O1+O2+O3 data - [arXiv:2202.11024](https://arxiv.org/abs/2202.11024)
 - **LIGO-SGWB-O2**: Stochastic BG of PBH mergers with LIGO (Observing Run 2) - [arXiv:1904.02396](https://arxiv.org/abs/1904.02396)
 - **LIGO-SGWB-O3**: Stochastic BG of PBH mergers with LIGO (Observing Run 3) - [arXiv:2202.11024](https://arxiv.org/abs/2202.11024)  
+- **LIGO-SGWB-O1-O2-O3**: Stochastic BG of PBH mergers with the first three LIGO observing runs. Bayesian constraints using a narrow log-normal mass function ("MN prior") - [arXiv:2412.18318](https://arxiv.org/abs/2412.18318)  
 - **LVK-SGWB-subsolar**: Stochastic GW background constraints for LVK O3 run - [arXiv:2202.11024](https://arxiv.org/abs/2202.11024)  
 - **Lyalphaforest**: Ly-alpha forest constraint from the shot noise power spectrum [arXiv:1903.10509](https://arxiv.org/abs/1903.10509)  
 - **M**: Microlensing constraints from MACHO - [astro-ph/0011506](https://arxiv.org/abs/astro-ph/0011506)  
