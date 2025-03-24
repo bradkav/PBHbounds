@@ -44,6 +44,7 @@ which is roughly inspired by plots from [arXiv:1811.11158](https://arxiv.org/abs
 ### Versions
 
 **Updates:**
+- 24/03/2025: Added new constraints on evaporating PBHs from Lyman-alpha forest temperature measurements, presented in [arXiv:2503.15595](https://arxiv.org/abs/2503.15595)  
 - 14/01/2025: Added new combined constraints on the SWGB from LIGO O1+O2+O3 from [arXiv:2412.18318](https://arxiv.org/abs/2412.18318)  
 - 30/10/2024: Added new constraints from high-cadence OGLE observations from [arXiv:2410.06251](https://arxiv.org/abs/2410.06251)  
 - 16/09/2024: Added new constraints and projections from microlensing of X-rays (`Xraylensing`) from [arXiv:2405.20365](https://arxiv.org/abs/2405.20365)  
