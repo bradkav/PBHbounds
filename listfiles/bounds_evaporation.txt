@@ -2,11 +2,12 @@
 EGRB	C1	-	9e-18	2e-3	62	EGRB
 511keV  C1	-	7.5e-18	1.1e-2	35	511_keV
 CMBevap	C1	-	2.5e-17	2.5e-1	58	CMB
-EDGESevap-Mittal2021	C1	-	4e-17	1.3e-2	65	EDGES_21cm
+EDGESevap-Mittal2021	C1	-	4.8e-17	1.5e-2	68	EDGES_21cm
 Voyager	C1	-	1.45e-17	4.05e-1	70	Voyager_I
 INTEGRAL	C1	-	5.3e-17	2.3e-1	60	INTEGRAL
 LeoTevap	C1	-	2.5e-17	2.7e-2	67	Dwarf_heating
 SuperK	C1	-	5e-17	2e-3	0	_
 Comptel C1	-	1.1e-17	6e-4	65	COMPTEL
 AMS	C1	-	9e-18 1e-1	80	AMS-02
-Xrayevap	C1	-	1.8e-17	6.5e-4	60	X-ray_BG
+Xrayevap	C1	-	1.8e-17	3e-4	60	X-ray_BG
+LyaEvap-Khan2025	C1	-	3e-17	1e-2	57	Lyman-$\alpha$  

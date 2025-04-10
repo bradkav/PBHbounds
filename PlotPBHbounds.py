@@ -33,7 +33,7 @@ plot_SGWB_range = True
 
 #Default values, overridden if you pass in command line arguments
 listfile_default = "listfiles/bounds_all.txt" 
-outfile_default = "plots/PBH_bounds.pdf"
+outfile_default = "plots/PBH_bounds.png"
 
 #Load in the filename with the list of bounds and the output filename
 parser = argparse.ArgumentParser(description='...')
