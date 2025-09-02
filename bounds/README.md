@@ -38,9 +38,10 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
 - **LIGO-SGWB-O2**: Stochastic BG of PBH mergers with LIGO (Observing Run 2) - [arXiv:1904.02396](https://arxiv.org/abs/1904.02396)
 - **LIGO-SGWB-O3**: Stochastic BG of PBH mergers with LIGO (Observing Run 3) - [arXiv:2202.11024](https://arxiv.org/abs/2202.11024)  
 - **LIGO-SGWB-O1-O2-O3**: Stochastic BG of PBH mergers with the first three LIGO observing runs. Bayesian constraints using a narrow log-normal mass function ("MN prior") - [arXiv:2412.18318](https://arxiv.org/abs/2412.18318)  
-- **LVK-SGWB-subsolar**: Stochastic GW background constraints for LVK O3 run - [arXiv:2202.11024](https://arxiv.org/abs/2202.11024)  
+- **LVK-SGWB-subsolar**: Stochastic GW background constraints for LVK O3 run - [arXiv:2202.11024](https://arxiv.org/abs/2202.11024) 
 - **Lyalphaforest**: Ly-alpha forest constraint from the shot noise power spectrum [arXiv:1903.10509](https://arxiv.org/abs/1903.10509)
-- **Lyalphaforestevap**: Ly-alpha forest constraint on PBH evaporation - [arXiv:2409.10617](https://arxiv.org/abs/2409.10617)  
+- **LyaEvap-Saha2024**: Constraints on evaporating PBHs from Lyman-alpha forest temperature measurements - [Saha et al., arXiv:2409.10617](https://arxiv.org/abs/2409.10617)  
+- **LyaEvap-Khan2025**: Constraints on evaporating PBHs from Lyman-alpha forest temperature measurements - [Khan et al., arXiv:2503.15595](https://arxiv.org/abs/2503.15595) 
 - **M**: Microlensing constraints from MACHO - [astro-ph/0011506](https://arxiv.org/abs/astro-ph/0011506)  
 - **Microlensing**: envelope of EROS, HSC, K and M  
 - **Microlensing-LongDuration**: Constraints from long-duration microlensing, combining EROS and MACHO results - [arXiv:2202.13819](https://arxiv.org/abs/2202.13819)  

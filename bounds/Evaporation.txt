@@ -1,4 +1,4 @@
-# Envelope of evaporation bounds: EGRB, 511keV, CMBevap, EDGESevap-Mittal2021, Voyager, INTEGRAL, LeoTevap, SuperK, Comptel, AMS, Xrayevap, Lyalphaevap
+# Envelope of evaporation bounds: EGRB, 511keV, CMBevap, EDGESevap-Mittal2021, Voyager, INTEGRAL, LeoTevap, SuperK, Comptel, AMS, Xrayevap, LyaEvap-Khan2025
 #  Columns: PBH mass [Mun], PBH fraction f_PBH
 1.000000000000000072e-18 1.598424030286459998e-09
 1.006938631476024979e-18 1.645060427375064911e-09
