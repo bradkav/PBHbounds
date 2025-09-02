@@ -21,6 +21,9 @@ def load_bound(boundID):
     elif (boundID in ["Xraylensing-NICER", "Xraylensing-NICER-proj", "Xraylensing-STROBEX-proj", "Xraylensing-Xmu-proj"]):    
         m, f = np.loadtxt('bounds/' + boundID + '.txt', unpack=True, usecols=(0, 1))
         
+    elif (boundID == "Lyalphaevap"):
+        m, f = np.loadtxt('bounds/Lyalphaevap_conservative.txt', unpack=True, usecols=(0, 1))
+        
     else:
         m, f = np.loadtxt('bounds/' + boundID + '.txt', unpack=True)
         

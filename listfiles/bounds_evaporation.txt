@@ -10,3 +10,4 @@ SuperK	C1	-	5e-17	2e-3	0	_
 Comptel C1	-	1.1e-17	6e-4	65	COMPTEL
 AMS	C1	-	9e-18 1e-1	80	AMS-02
 Xrayevap	C1	-	1.8e-17	6.5e-4	60	X-ray_BG
+Lyalphaevap	C1	-	1.2e-17	4.5e-2	45	Lyman-$\alpha$
