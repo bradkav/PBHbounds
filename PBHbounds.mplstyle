@@ -1,0 +1,17 @@
+font.size: 16
+font.family: serif
+xtick.major.size: 7
+xtick.major.width: 1
+xtick.minor.size: 3.5
+xtick.minor.width: 1
+ytick.major.size: 7
+ytick.major.width: 1
+ytick.minor.size: 3.5
+ytick.minor.width: 1
+xtick.direction: in
+ytick.direction: in
+lines.linewidth: 1.5
+xtick.top: True
+ytick.right: True
+text.usetex:  True
+legend.edgecolor: inherit
