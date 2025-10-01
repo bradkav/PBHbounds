@@ -79,6 +79,7 @@ def addConstraint(boundID, clip=False, color='blue',linestyle='-',
     
     if (boundID == "SIGWs"):
         addSIGWprojections(color=color, linestyle=linestyle)
+        return -1
     
     _m, _f = load_bound(boundID)
     

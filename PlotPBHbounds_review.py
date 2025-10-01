@@ -63,6 +63,6 @@ plt.ylim(1e-5, 1.5)
 
 tools.setup_axes(fig, major_tick_spacing=3)
 
-plt.savefig(outfile, bbox_inches='tight')
+plt.savefig(outfile, bbox_inches='tight', dpi = 300)
     
 plt.show()
