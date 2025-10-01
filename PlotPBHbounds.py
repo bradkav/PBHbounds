@@ -30,47 +30,30 @@ outfile = args.outfile
 #---------------------------------
 bounds, colors, lines, xlist, ylist, anglist, labellist = tools.load_listfile(listfile)
 
-
-#Set dark theme and swap colors
-#----------------------------------
+#Set Dark theme and swap colors if necessary
+#------------------------------------------
 if (args.dark):
-    plt.style.use('dark_background')
-    tools.alpha_val = 0.35
-    
-    try:
-        for i, col in enumerate(colors):
-            if (col == "C1"):
-                colors[i] = "C5"
-            if (col == "C2"):
-                colors[i] = "C6"
-    except:
-        pass
-
+    tools.dark_theme(colors)
 
 
 #Make the figure and add the bounds
 #----------------------------------
 
-plt.figure(figsize=(8,5))
-
-ax = plt.gca()
+fig = plt.figure(figsize=(8,5))
 
 for i in range(len(bounds)):  
-    if (bounds[i] == "SIGWs"):
-        tools.addSIGWprojections(color=colors[i], linestyle=lines[i])
-    else:
-        tools.addConstraint(bounds[i], color = colors[i], x = xlist[i], y = ylist[i], linestyle=lines[i], labeltext=labellist[i], rotation=anglist[i])
+    tools.addConstraint(bounds[i], color = colors[i], x = xlist[i], y = ylist[i], linestyle=lines[i], labeltext=labellist[i], rotation=anglist[i])
 
 
-plt.axhspan(1, 1.5, facecolor='grey', alpha=0.5, zorder=10)
+plt.axhspan(1, 1.5, facecolor='grey', alpha=0.7, zorder=10)
 
-Msun_min = 1e-4
+Msun_min = 1e-18
 Msun_max = 1e4
 
 plt.xlim(Msun_min, Msun_max)
 plt.ylim(5e-6, 1.5)
 
-tools.setup_axes(ax)
+tools.setup_axes(fig, major_tick_spacing=3)
 
 plt.savefig(outfile, bbox_inches='tight')
     

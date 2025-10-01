@@ -1,4 +1,4 @@
-# Envelope of dynamical bounds: WideBinaries, UFdwarfs
+# Envelope of bounds: WideBinaries, UFdwarfs
 #  Columns: PBH mass [Muns], PBH fraction f_PBH
 1.000000000000000082e-05 1.000000000000000000e+10
 1.023316578330244899e-05 1.000000000000000000e+10

@@ -1,4 +1,4 @@
-# Envelope of microlensing bounds: OGLE-strict, OGLE-highcadence, SNe, M, HSC, EROS, Icarus, Microlensing-LongDuration, Quasars-Xray, FRB-Leung2022
+# Envelope of bounds: OGLE-strict, OGLE-highcadence, SNe, M, HSC, EROS, Icarus, Microlensing-LongDuration, Quasars-Xray, FRB-Leung2022
 #  Columns: PBH mass [Muns], PBH fraction f_PBH
 9.999999999999999799e-13 1.000000000000000000e+10
 1.039960913954118151e-12 1.000000000000000000e+10
