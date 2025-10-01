@@ -25,7 +25,9 @@ If you'd like to add a bound to the repo, there are a few options:
 
 Some example plots summarising the bounds are in the [plots/](plots/) folder.
 
-You can produce a plot with
+You can see the basic functioning of the code in the example notebook here: [PBHboundsNotebook.ipynb](PBHboundsNotebook.ipynb). There, you can add constraints one-by-one according to the `boundID`s listed in the readme of the [bounds/](bounds/) folder. It's also straightforward to adjust the line styles and text labels in this notebook view. 
+
+In practice, for a large number of bounds, it can be more sensible to provide a list of bounds. You can produce a plot with
 ```
 python PlotPBHbounds.py -listfile LIST_FILE -outfile OUT_FILE
 ```
@@ -33,7 +35,11 @@ where `LIST_FILE` is a text file containing a list of bounds to be plotted (see 
 
 A dark theme (with black background and white text) can be set using the flag `--dark`.
 
+There are several preset scripts for plotting collected limits from Accretion, GWs, etc. There is also an 'empty' script if you want to plot from scratch using the tools. 
+
 The plot style and some of the bounds are inspired by [arXiv:1801.00808](https://arxiv.org/abs/1801.00808).
+
+#### Primordial Power Spectrum
 
 Constraints on the primordial power spectrum can be plotted with
 ```
