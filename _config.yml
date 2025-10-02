@@ -1,1 +1,5 @@
 theme: minima
+
+include:
+  - README.md
+  - bounds/README.md
