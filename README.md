@@ -15,7 +15,7 @@ The list of available, tabulated bounds is in the [bounds/](bounds/) folder (see
 If you'd like to add a bound to the repo, there are a few options:
 1. Make the changes yourself:
 	* Add the new bound as a `.txt` file in the [bounds/](bounds/) folder. Each file should have two columns, corresponding to the PBH mass in Solar mass, and the constraint on the PBH fraction. Also include a comment at the top of the file giving a link to the source of the bound.  
-	* Update the [bounds/README.md](https://github.com/bradkav/PBHbounds/blob/master/bounds/README.md) file with information about the new bound.
+	* Update the [bounds/README.md](bounds/README.md) file with information about the new bound.
 	* Submit a pull request
 2. Create an issue here on the github repo, pointing to the paper/bound which is missing.  
 3. Contact me directly at bradkav@gmail.com and let me know which bound you think should be added.
