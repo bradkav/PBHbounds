@@ -2,3 +2,8 @@ theme: minima
 
 exclude:
   - bounds/old_bounds/README.md
+
+header_pages:
+  - bounds/README.md
+  - UPDATES.md
+  - PAPERS.md
