@@ -1,4 +1,4 @@
-### List of bounds
+### Bounds
 
 Check each individual file to find out precisely which constraint I'm using.
 Constraints which are not *strictly* valid for monochromatic mass functions are marked with an asterisk (*). Projected constraints are marked with a dagger (†). Constraints which are now generally discredited are marked with a 'slashed zero' (ø).
