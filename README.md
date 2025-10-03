@@ -4,7 +4,7 @@
 
 *A collection of bounds on primordial black holes (PBHs) and code for plotting them.*
 
-<img src="plots/PBH_bounds.png" alt="Summary of PBH Bounds" width="600" align = "center" />
+<img src="plots/PBH_bounds.png" alt="Summary of PBH Bounds" width="500" align = "right" />
 
 ### Bounds
 
