@@ -43,7 +43,8 @@ if (args.dark):
 #Make the figure and add the bounds
 #----------------------------------
 
-fig = plt.figure(figsize=(8,5))
+scale = 0.7
+fig = plt.figure(figsize=(8*scale,5*scale))
 
 tbox = dict(facecolor='white', edgecolor='none', boxstyle='round', alpha=0.7)
 
