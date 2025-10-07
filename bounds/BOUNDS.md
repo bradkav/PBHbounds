@@ -4,9 +4,8 @@ Check each individual file to find out precisely which constraint I'm using.
 Constraints which are not *strictly* valid for monochromatic mass functions are marked with an asterisk (*). Projected constraints are marked with a dagger (†). Constraints which are now generally discredited are marked with a 'slashed zero' (ø).
 
 **3G-GW-1y**, **3G-GW-10y**†: Projected constraints from 3G Gravitational Wave detectors (based on 1 year and 10 years of operation) - [arXiv:2111.06990](https://arxiv.org/abs/2111.06990)
-<div class="tooltip">
-        [Preview]
-        <span class="tooltiptext right">
+<div class="tooltip">[Preview]
+        <span class="tooltiptext bottom">
             <img src=
 "https://bradkav.net/PBHbounds/plots/highlights/3G-GW-1y.png"
                  alt="PBHbounds summary" 
@@ -15,9 +14,8 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
  </div>
 
 **511keV**: Constraints on PBH evaporation from the 511 keV gamma ray line - [arXiv:1906.09994](https://arxiv.org/abs/1906.09994) and [arXiv:1906.07740](https://arxiv.org/abs/1906.07740)
-<div class="tooltip">
-        [Preview]
-        <span class="tooltiptext right">
+<div class="tooltip">[Preview]
+        <span class="tooltiptext bottom">
             <img src=
 "https://bradkav.net/PBHbounds/plots/highlights/511keV.png"
                  alt="PBHbounds summary" 
@@ -29,7 +27,7 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
 **511keV-DeLaTorreLuque2024**: Updated PBH evaporation constraints from 511 keV line - [arXiv:2406.11949](https://arxiv.org/abs/2406.11949)
 <div class="tooltip">
         [Preview]
-        <span class="tooltiptext right">
+        <span class="tooltiptext bottom">
             <img src=
 "https://bradkav.net/PBHbounds/plots/highlights/3G-GW-1y.png"
                  alt="PBHbounds summary" 
@@ -40,7 +38,7 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
 **AMS**: Constraints from AMS-02, due to positron + electron production by evaporation - [arXiv:2403.04988](https://arxiv.org/abs/2403.04988)
 <div class="tooltip">
         [Preview]
-        <span class="tooltiptext right">
+        <span class="tooltiptext bottom">
             <img src=
 "https://bradkav.net/PBHbounds/plots/highlights/AMS.png"
                  alt="PBHbounds summary" 
@@ -51,7 +49,7 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
 **Comptel**: Constraints from PBH evaporation using Comptel GC observations - [arXiv:2010.04797](https://arxiv.org/abs/2010.04797)
 <div class="tooltip">
         [Preview]
-        <span class="tooltiptext right">
+        <span class="tooltiptext bottom">
             <img src=
 "https://bradkav.net/PBHbounds/plots/highlights/Comptel.png"
                  alt="PBHbounds summary" 

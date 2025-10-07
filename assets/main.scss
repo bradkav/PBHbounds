@@ -4,39 +4,40 @@
 @import "minima";
 
 .tooltip {
-    display: inline-block;
-    margin-right: 30px;
-    border-bottom: 1px dotted black;
-    position: relative;
-}
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+        margin-right: 20px;
+    }
 
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 300px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px;
-    position: absolute;
-    z-index: 1;
-    opacity: 0;
-    transition: opacity 0.3s;
-}
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px;
+        position: absolute;
+        z-index: 1;
+        opacity: 0;
+        transition: opacity 0.3s;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 
-.tooltip .tooltiptext.left {
-    bottom: 50%;
-    right: 105%;
-    margin-bottom: -15px;
-}
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+        opacity: 1;
+    }
 
-.tooltip .tooltiptext.right {
-    bottom: 50%;
-    left: 105%;
-    margin-bottom: -15px;
-}
+    .tooltip.top .tooltiptext {
+        bottom: 100%;
+        top: auto;
+    }
 
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-    opacity: 1;
-}
+    .tooltip.bottom .tooltiptext {
+        top: 100%;
+        bottom: auto;
+    }
