@@ -3,20 +3,8 @@
 Check each individual file to find out precisely which constraint I'm using.
 Constraints which are not *strictly* valid for monochromatic mass functions are marked with an asterisk (*). Projected constraints are marked with a dagger (†). Constraints which are now generally discredited are marked with a 'slashed zero' (ø).
 
-
-<div class="tooltip">
-        Preview
-        <span class="tooltiptext right">
-            <img src=
-"https://bradkav.net/PBHbounds/plots/PBH_bounds.png"
-                 alt="PBHbounds summary" 
-                 style="width: 300px; height: auto;">
-        </span>
- </div>
-
-|Bounds | Preview|
+|Bound | Preview|
 |--------|-------|
-|
 | **3G-GW-1y**, **3G-GW-10y**†: Projected constraints from 3G Gravitational Wave detectors (based on 1 year and 10 years of operation) - [arXiv:2111.06990](https://arxiv.org/abs/2111.06990)  | <img src= "https://bradkav.net/PBHbounds/plots/highlights/3G-GW-1y.png" alt="PBHbounds summary" style="width: 500px; height: auto;"> |
 | **511keV**: Constraints on PBH evaporation from the 511 keV gamma ray line - [arXiv:1906.09994](https://arxiv.org/abs/1906.09994) and [arXiv:1906.07740](https://arxiv.org/abs/1906.07740) | <img src= "https://bradkav.net/PBHbounds/plots/highlights/511keV.png" alt="PBHbounds summary" style="width: 500px; height: auto;"> |
 | **511keV-DeLaTorreLuque2024**: Updated PBH evaporation constraints from 511 keV line - [arXiv:2406.11949](https://arxiv.org/abs/2406.11949) | <img src= "https://bradkav.net/PBHbounds/plots/highlights/511keV-DeLaTorreLuque2024.png" alt="PBHbounds summary" style="width: 500px; height: auto;"> | 
