@@ -4,7 +4,7 @@ exclude:
   - bounds/old_bounds/README.md
 
 header_pages:
-  - bounds/README.md
+  - bounds/BOUNDS.md
   - UPDATES.md
   - PAPERS.md
 
