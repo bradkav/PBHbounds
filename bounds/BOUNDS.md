@@ -2,7 +2,8 @@
 
 Check each individual file to find out precisely which constraint I'm using.
 Constraints which are not *strictly* valid for monochromatic mass functions are marked with an asterisk (*). Projected constraints are marked with a dagger (†). Constraints which are now generally discredited are marked with a 'slashed zero' (ø).
-<br>
+
+-----
 
 **3G-GW-1y**, **3G-GW-10y**†: Projected constraints from 3G Gravitational Wave detectors (based on 1 year and 10 years of operation) - [arXiv:2111.06990](https://arxiv.org/abs/2111.06990)
 <div class="tooltip">[Preview]<span class="tooltiptext right"><img src=
