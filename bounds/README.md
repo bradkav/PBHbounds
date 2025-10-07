@@ -5,32 +5,27 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
 
 
 <div class="tooltip">
-        Test
+        Preview
         <span class="tooltiptext right">
             <img src=
 "https://bradkav.net/PBHbounds/plots/PBH_bounds.png"
                  alt="PBHbounds summary" 
-                 style="width: 100px; height: auto;">
+                 style="width: 300px; height: auto;">
         </span>
-    </div>
+ </div>
 
-
-**3G-GW-1y**, **3G-GW-10y**†: Projected constraints from 3G Gravitational Wave detectors (based on 1 year and 10 years of operation) - [arXiv:2111.06990](https://arxiv.org/abs/2111.06990)  
-
-**511keV**: Constraints on PBH evaporation from the 511 keV gamma ray line - [arXiv:1906.09994](https://arxiv.org/abs/1906.09994) and [arXiv:1906.07740](https://arxiv.org/abs/1906.07740) 
-
-**511keV-DeLaTorreLuque2024**: Updated PBH evaporation constraints from 511 keV line - [arXiv:2406.11949](https://arxiv.org/abs/2406.11949)  
-
-**AMS**: Constraints from AMS-02, due to positron + electron production by evaporation - [arXiv:2403.04988](https://arxiv.org/abs/2403.04988)  
-**Comptel**: Constraints from PBH evaporation using Comptel GC observations - [arXiv:2010.04797](https://arxiv.org/abs/2010.04797)  
-
-**CMB**: Constraints from modification of the CMB spectrum due to accreting PBHs, including particle DM accretion - [arXiv:2002.10771](https://arxiv.org/abs/2002.10771) 
-
-**CMB-Agius2024**: Updated CMB constraints from accreting PBHs, assuming Park-Ricotti accretion model - [arXiv:2403.18895](https://arxiv.org/abs/2403.18895)  
-
-**CMBevap**: Constraints from modification of the CMB spectrum due to evaporating PBHs - [arXiv:1612.07738](https://arxiv.org/abs/1612.07738)
-
-**EROS**: Microlensing constraints from EROS - [astro-ph/0607207](https://arxiv.org/abs/astro-ph/0607207)  
+|Bounds | Preview|
+|--------|-------|
+|
+| **3G-GW-1y**, **3G-GW-10y**†: Projected constraints from 3G Gravitational Wave detectors (based on 1 year and 10 years of operation) - [arXiv:2111.06990](https://arxiv.org/abs/2111.06990)  | <img src= "https://bradkav.net/PBHbounds/plots/highlights/3G-GW-1y.png" alt="PBHbounds summary" style="width: 500px; height: auto;"> |
+| **511keV**: Constraints on PBH evaporation from the 511 keV gamma ray line - [arXiv:1906.09994](https://arxiv.org/abs/1906.09994) and [arXiv:1906.07740](https://arxiv.org/abs/1906.07740) | <img src= "https://bradkav.net/PBHbounds/plots/highlights/511keV.png" alt="PBHbounds summary" style="width: 500px; height: auto;"> |
+| **511keV-DeLaTorreLuque2024**: Updated PBH evaporation constraints from 511 keV line - [arXiv:2406.11949](https://arxiv.org/abs/2406.11949) | <img src= "https://bradkav.net/PBHbounds/plots/highlights/511keV-DeLaTorreLuque2024.png" alt="PBHbounds summary" style="width: 500px; height: auto;"> | 
+| **AMS**: Constraints from AMS-02, due to positron + electron production by evaporation - [arXiv:2403.04988](https://arxiv.org/abs/2403.04988) | <img src= "https://bradkav.net/PBHbounds/plots/highlights/AMS.png" alt="PBHbounds summary" style="width: 500px; height: auto;"> | 
+| **Comptel**: Constraints from PBH evaporation using Comptel GC observations - [arXiv:2010.04797](https://arxiv.org/abs/2010.04797) |  <img src= "https://bradkav.net/PBHbounds/plots/highlights/AMS.png" alt="PBHbounds summary" style="width: 500px; height: auto;"> | 
+| **CMB**: Constraints from modification of the CMB spectrum due to accreting PBHs, including particle DM accretion - [arXiv:2002.10771](https://arxiv.org/abs/2002.10771) | <img src= "https://bradkav.net/PBHbounds/plots/highlights/CMB.png" alt="PBHbounds summary" style="width: 500px; height: auto;"> |
+| **CMB-Agius2024**: Updated CMB constraints from accreting PBHs, assuming Park-Ricotti accretion model - [arXiv:2403.18895](https://arxiv.org/abs/2403.18895) |  <img src= "https://bradkav.net/PBHbounds/plots/highlights/CMB-Agius2024.png" alt="PBHbounds summary" style="width: 500px; height: auto;"> |
+| **CMBevap**: Constraints from modification of the CMB spectrum due to evaporating PBHs - [arXiv:1612.07738](https://arxiv.org/abs/1612.07738) |  <img src= "https://bradkav.net/PBHbounds/plots/highlights/CMBevap.png" alt="PBHbounds summary" style="width: 500px; height: auto;"> |
+| **EROS**: Microlensing constraints from EROS - [astro-ph/0607207](https://arxiv.org/abs/astro-ph/0607207) | <img src= "https://bradkav.net/PBHbounds/plots/highlights/EROS.png" alt="PBHbounds summary" style="width: 500px; height: auto;"> |
 
 **EDGES**: Constraints from energy injection in the 21cm EDGES signal due to accreting PBHs - [arXiv:1803.09697](https://arxiv.org/abs/1803.09697)  
 
