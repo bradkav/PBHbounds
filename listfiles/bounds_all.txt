@@ -43,5 +43,9 @@ OGLE-hint	k	:	1e-5	2.2e-2	-75	OGLE?
 FL-small	y	--	6e-16	4e-1	0	FL
 GRB-parallax	y	--	6e-14	7e-2	0	GRB_Lensing_Parallax
 WhiteDwarfmicro	C0	--	1e-11	2e-2	0	WD
-Xraylensing-eXTP-proj	C0	--	9e-15	7e-1	0	X-ray_Lensing 
 GECCO		C1	--	2.5e-16	1e-2	82	GECCO
+Xraylensing-eXTP-proj	C0	--	9e-15	7e-1	0	X-ray_Lensing 
+Xraylensing-Xmu-proj	C0	--	9e-15	7e-1	0	X-ray_Lensing 
+Xraylensing-STROBEX-proj	C0	--	9e-15	7e-1	0	X-ray_Lensing 
+Xraylensing-NICER-proj	C0	--	9e-15	7e-1	0	X-ray_Lensing 
+

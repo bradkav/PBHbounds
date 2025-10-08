@@ -28,7 +28,7 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
         [Preview]
         <span class="tooltiptext right">
             <img src=
-"https://bradkav.net/PBHbounds/plots/highlights/3G-GW-1y.png"
+"https://bradkav.net/PBHbounds/plots/highlights/511keV-DeLaTorreLuque2024.png"
                  alt="PBHbounds summary" 
                  style="width: 300px; height: auto;">
         </span>

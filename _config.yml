@@ -3,10 +3,12 @@ theme: minima
 exclude:
   - bounds/old_bounds/README.md
 
+
 header_pages:
-  - bounds/BOUNDS.md
-  - UPDATES.md
-  - PAPERS.md
+  - pages/overview.md
+  - bounds/bounds.md
+  - updates.md
+  - papers.md
 
 plugins: [jekyll-titles-from-headings]
 

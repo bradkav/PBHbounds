@@ -18,13 +18,13 @@ listfile_all = "listfiles/bounds_all.txt"
 #Load list of bounds from listfile
 #---------------------------------
 bounds, colors, lines, xlist, ylist, anglist, labellist = tools.load_listfile(listfile)
-bounds_all = tools.load_listfile(listfile_all)[0]
+bounds_all, _, lines_all, _, _, _, _ = tools.load_listfile(listfile_all)
 
 
 #Make the figure and add the bounds
 #----------------------------------
 
-for boundID in bounds_all:
+for j, boundID in enumerate(bounds_all):
     print("Plotting bound <" + boundID +">...")
     
     scale = 0.7
@@ -38,7 +38,7 @@ for boundID in bounds_all:
                             fontsize=13, zorder=20, weight='bold', c=colors[i])
 
     tools.addConstraint(boundID, color = 'k', x = xlist[i], y = ylist[i], 
-                        linestyle=lines[i],rotation=anglist[i], linewidth=3.0,
+                        linestyle=lines_all[j],rotation=anglist[i], linewidth=3.0,
                         fontsize=13, zorder=20, weight='bold', c=colors[i])
 
     plt.axhspan(1, 1.5, facecolor='grey', alpha=0.7, zorder=10)
