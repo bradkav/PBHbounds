@@ -15,6 +15,11 @@ def load_bound(boundID):
     if (boundID in ["OGLE"]):
         raise ValueError("boundID <" + boundID  + "> has been deprecated. Please check the bounds/README.md file.")
     
+    if (boundID == "M"):
+        m, f = np.loadtxt('bounds/MACHO.txt', unpack=True, usecols=(0, 1))
+    if (boundID == "K"):
+        m, f = np.loadtxt('bounds/Kepler.txt', unpack=True, usecols=(0, 1))
+    
     if (boundID == "OGLE-strict"):
         m, f = np.loadtxt('bounds/OGLE.txt', unpack=True, usecols=(0, 1))
     elif (boundID == "OGLE-MW1"):
@@ -44,15 +49,24 @@ def load_listfile(listfile):
     bounds = np.loadtxt(listfile, usecols=(0,), dtype=str)
     colors = np.loadtxt(listfile, usecols=(1,), dtype=str)
     lines = np.loadtxt(listfile, usecols=(2,), dtype=str)
-    xlist = np.loadtxt(listfile, usecols=(3,))
-    ylist = np.loadtxt(listfile, usecols=(4,))
-    anglist = np.loadtxt(listfile, usecols=(5,))
-
+    
     try:
-        labellist = np.loadtxt(listfile, usecols=(6,), dtype=str)
+        xlist = np.loadtxt(listfile, usecols=(3,))
+        ylist = np.loadtxt(listfile, usecols=(4,))
+        anglist = np.loadtxt(listfile, usecols=(5,))
+     
+        try:
+            labellist = np.loadtxt(listfile, usecols=(6,), dtype=str)
+        except:
+            print("> Problem loading labels in column 7 of listfile. Using boundIDs instead...")
+            labellist = bounds
+
     except:
-        print("> Problem loading labels in column 6 of listfile. Using boundIDs instead...")
-        labellist = bounds
+        print("> Problem loading labels. Labels will be omitted...")
+        xlist = 1e-30*np.ones(len(bounds))
+        ylist = 1e-30*np.ones(len(bounds))
+        anglist = np.zeros(len(bounds))
+        labellist = [""]*len(bounds)
         
     return bounds, colors, lines, xlist, ylist, anglist, labellist
     

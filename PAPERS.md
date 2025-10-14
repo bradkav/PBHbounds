@@ -1,6 +1,7 @@
 ## Papers
 
-An incomplete list of papers which make use of PBHbounds. Please get in touch if you've used the code or digitised bounds, so I can keep track!
+An incomplete list of papers which make use of PBHbounds. Please get in touch if you've used the code or digitised bounds, so I can keep track! <br>
+
 - *Constraints on asteroid-mass primordial black holes in dwarf galaxies using Hubble Space Telescope photometry*, Esser et al., [arXiv:2503.03352](https://arxiv.org/abs/2503.03352)  
 - *Non-particle dark matter*, Green, [arXiv:2502.11966](https://arxiv.org/abs/2502.11966)  
 - *A New Census of the Universe's Entropy*, Profumo et al., [arXiv:2412.11282](https://arxiv.org/abs/2412.11282)  

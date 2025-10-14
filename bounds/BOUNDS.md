@@ -3,7 +3,7 @@
 Check each individual file to find out precisely which constraint I'm using.
 Constraints which are not *strictly* valid for monochromatic mass functions are marked with an asterisk (*). Projected constraints are marked with a dagger (†). Constraints which are now generally discredited are marked with a 'slashed zero' (ø).
 <br>
-
+<br>
 -----
 
 <br>
@@ -275,12 +275,12 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
         </span>
  </div> <br>
 
-**K**: Microlensing constraints from Kepler - [arXiv:1307.5798](https://arxiv.org/abs/1307.5798)
+**Kepler**: Microlensing constraints from Kepler - [arXiv:1307.5798](https://arxiv.org/abs/1307.5798)
 <div class="tooltip">
         [Preview]
         <span class="tooltiptext right">
             <img src=
-"https://bradkav.net/PBHbounds/plots/highlights/K.png"
+"https://bradkav.net/PBHbounds/plots/highlights/Kepler.png"
                  alt="PBHbounds summary" 
                  style="width: 300px; height: auto;">
         </span>
@@ -297,23 +297,23 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
         </span>
  </div> <br>
 
-**Leo-T**: Heating due to dynamic friction and accretion in Leo T - [arXiv:2007.02213](https://arxiv.org/abs/2007.02213)
+**LeoT**: Heating due to dynamic friction and accretion in Leo T - [arXiv:2007.02213](https://arxiv.org/abs/2007.02213)
 <div class="tooltip">
         [Preview]
         <span class="tooltiptext right">
             <img src=
-"https://bradkav.net/PBHbounds/plots/highlights/Leo-T.png"
+"https://bradkav.net/PBHbounds/plots/highlights/LeoT.png"
                  alt="PBHbounds summary" 
                  style="width: 300px; height: auto;">
         </span>
  </div> <br>
 
-**Leo-Tevap**: Heating due to evaporation in dwarf galaxy Leo T - [arXiv:2007.07739](https://arxiv.org/abs/2007.07739)
+**LeoTevap**: Heating due to evaporation in dwarf galaxy Leo T - [arXiv:2007.07739](https://arxiv.org/abs/2007.07739)
 <div class="tooltip">
         [Preview]
         <span class="tooltiptext right">
             <img src=
-"https://bradkav.net/PBHbounds/plots/highlights/Leo-Tevap.png"
+"https://bradkav.net/PBHbounds/plots/highlights/LeoTevap.png"
                  alt="PBHbounds summary" 
                  style="width: 300px; height: auto;">
         </span>
@@ -396,16 +396,6 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
         </span>
  </div> <br>
 
-**LVK-SGWB-subsolar**: Stochastic GW background constraints for LVK O3 run - [arXiv:2202.11024](https://arxiv.org/abs/2202.11024)
-<div class="tooltip">
-        [Preview]
-        <span class="tooltiptext right">
-            <img src=
-"https://bradkav.net/PBHbounds/plots/highlights/LVK-SGWB-subsolar.png"
-                 alt="PBHbounds summary" 
-                 style="width: 300px; height: auto;">
-        </span>
- </div> <br>
 
 **Lyalphaforest**: Ly-alpha forest constraint from the shot noise power spectrum [arXiv:1903.10509](https://arxiv.org/abs/1903.10509)
 <div class="tooltip">
@@ -440,23 +430,12 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
         </span>
  </div> <br>
 
-**M**: Microlensing constraints from MACHO - [astro-ph/0011506](https://arxiv.org/abs/astro-ph/0011506)
+**MACHO**: Microlensing constraints from MACHO - [astro-ph/0011506](https://arxiv.org/abs/astro-ph/0011506)
 <div class="tooltip">
         [Preview]
         <span class="tooltiptext right">
             <img src=
-"https://bradkav.net/PBHbounds/plots/highlights/M.png"
-                 alt="PBHbounds summary" 
-                 style="width: 300px; height: auto;">
-        </span>
- </div> <br>
-
-**Microlensing**: envelope of EROS, HSC, K and M
-<div class="tooltip">
-        [Preview]
-        <span class="tooltiptext right">
-            <img src=
-"https://bradkav.net/PBHbounds/plots/highlights/Microlensing.png"
+"https://bradkav.net/PBHbounds/plots/highlights/MACHO.png"
                  alt="PBHbounds summary" 
                  style="width: 300px; height: auto;">
         </span>

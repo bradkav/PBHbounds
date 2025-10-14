@@ -4,7 +4,29 @@ EGRB	C1	-	9e-18	2e-3	62	EGRB
 511keV-DeLaTorreLuque2024  C1	-	7.5e-18	1.1e-2	35	511_keV
 CMBevap	C1	-	2.5e-17	2.5e-1	58	CMB
 EDGESevap-Mittal2021	C1	-	4e-17	1.3e-2	65	EDGES_21cm
+EDGESevap-Clark2018	C1	-	4e-17	1.3e-2  
+EDGESevap-Saha2021      C1	-	4e-17	1.3e-2
 Voyager	C1	-	1.45e-17	4.05e-1	70	Voyager_I
+EGRB	C1	-	
+FL	C0	:
+FRB	C0	-
+Kepler	C0	-
+Leo-I	C2	-
+LIGO-SGWB-O1-O2-O3	C4	-
+NS	y	:
+Voyager-DeLaTorreLuque2024	C1	-
+PTA-Doppler	C2	--
+PTA-Shapiro	C2	--
+Quasars	C0	-
+SKA	C2	--
+Xrayevap-DeLaTorreLuque2024	C1	-
+WD	y	:
+OGLE-2019	C0	-
+Lyalphaforest	C2	-
+LyaEvap-Saha2024	C1	-
+LIGO-HMR	C4	-
+GW-lensing	C4	--
+LIGO-perturbed	C4	-	
 INTEGRAL	C1	-	5.3e-17	2.3e-1	60	INTEGRAL
 LeoTevap	C1	-	2.5e-17	2.7e-2	67	Dwarf_heating
 SuperK	C1	-	5e-17	2e-3	0	_
@@ -14,8 +36,8 @@ Xrayevap	C1	-	1.8e-17	6.5e-4	60	X-ray_BG
 LyaEvap-Khan2025	C1	-	5e-17	1e-1	82	Lyman-$\alpha$  
 OGLE-strict	C0	-	6	4e-3	0	OGLE
 OGLE-highcadence	C0	-	1.7e-1	1.5e-3	0	OGLE_high-cadence
-SNe	C0	-	3e2	7e-1	0	SNe
-M	C0	-	3	5e-1	0	M
+SNe-Lensing	C0	-	3e2	7e-1	0	SNe
+MACHO	C0	-	3	5e-1	0	M
 HSC	C0	-	5e-9	5e-2	0	HSC
 EROS	C0	-	2e-2	2.5e-2	0	EROS
 Icarus  C0	-	5e-2	1.02e-1	0	Icarus
@@ -24,6 +46,7 @@ Quasars-Xray	C0	-	1.2e2	8.5e-3	0	Quasars
 FRB-Leung2022	C0	-	5e-4	0.55	0	FRB
 Radio	C3	-	30	6e-4	-60	Radio
 CMB	C3	-	70	1e-3	-80	CMB
+NANOGrav	C2	-
 CMB-Agius2024	C3	-	70	1e-3	-80	CMB-Agius2024
 EDGES	C3	- 	330	4e-3	-57	EDGES_21cm
 X-ray	C3	- 	64	4.5e-3	20	X-ray
@@ -44,6 +67,7 @@ FL-small	y	--	6e-16	4e-1	0	FL
 GRB-parallax	y	--	6e-14	7e-2	0	GRB_Lensing_Parallax
 WhiteDwarfmicro	C0	--	1e-11	2e-2	0	WD
 GECCO		C1	--	2.5e-16	1e-2	82	GECCO
+Xraylensing-NICER	C0	-	
 Xraylensing-eXTP-proj	C0	--	9e-15	7e-1	0	X-ray_Lensing 
 Xraylensing-Xmu-proj	C0	--	9e-15	7e-1	0	X-ray_Lensing 
 Xraylensing-STROBEX-proj	C0	--	9e-15	7e-1	0	X-ray_Lensing 
