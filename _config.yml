@@ -4,7 +4,7 @@ exclude:
   - bounds/old_bounds/README.md
 
 github:
-	repository_url: https://github.com/bradkav/PBHbounds
+  repository_url: https://github.com/bradkav/PBHbounds
 
 header_pages:
   - pages/overview.md
