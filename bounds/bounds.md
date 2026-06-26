@@ -1,9 +1,16 @@
 ## Bounds
 
-Check each individual file to find out precisely which constraint I'm using.
+Below is a list of bounds available in the repository. In bold is the unique 'boundID' for each bound and in general matches the filename where the bound is saved.
+<br>
+
+Check the [individual files](https://github.com/bradkav/PBHbounds/tree/main/bounds) in the repository to find out precisely which constraint I'm using.
 Constraints which are not *strictly* valid for monochromatic mass functions are marked with an asterisk (*). Projected constraints are marked with a dagger (†). Constraints which are now generally discredited are marked with a 'slashed zero' (ø).
 <br>
+
+In addition to the individual bounds listed below, you can also use 
 <br>
+<br>
+
 -----
 
 <br>
@@ -156,7 +163,7 @@ Constraints which are not *strictly* valid for monochromatic mass functions are 
         [Preview]
         <span class="tooltiptext right">
             <img src=
-"https://bradkav.net/PBHbounds/plots/highlights/EDGESevap-EGRB.png"
+"https://bradkav.net/PBHbounds/plots/highlights/EGRB.png"
                  alt="PBHbounds summary" 
                  style="width: 300px; height: auto;">
         </span>
