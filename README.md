@@ -32,8 +32,6 @@ There are several preset scripts for plotting collected limits from Accretion, G
 
 Some example plots summarising the bounds are in the [plots/](plots/) folder. The plot style and some of the bounds are inspired by [arXiv:1801.00808](https://arxiv.org/abs/1801.00808). <br><br>
 
-<br>
-
 #### Primordial Power Spectrum
 
 Constraints on the primordial power spectrum can be plotted with
@@ -61,11 +59,7 @@ If you'd like to add a bound to the repo, there are a few options:
 
 <br>
 
-A list of updates and recently added bounds can be found here: {% if site.github %}
-  [Updates](/updates)
-{% else %}
-  [Updates](updates.md)
-{% endif %}
+A list of updates and recently added bounds can be found here: [updates.md](updates.md).
 
 <br>
 
