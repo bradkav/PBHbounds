@@ -67,7 +67,7 @@ A list of updates and recently added bounds can be found here: [Updates](/PBHbou
 
 Feel free to use the bounds and code for anything you like, but please link to the repo if you do and cite the DOI: [10.5281/zenodo.3538999](https://doi.org/10.5281/zenodo.3538999). <br>
 
-An list of papers (probably incomplete) using the PBHbounds code can be found here: [Papers](/PBHbounds/papers.html) (see also [papers.md](papers.md)). Please also get in touch to let me know you've used the code. That way I can keep track! Thanks.
+A list of papers (probably incomplete) using the PBHbounds code can be found here: [Papers](/PBHbounds/papers.html) (see on [github](github.com/bradkav/PBHbounds/papers.md)). Please also get in touch to let me know you've used the code. That way I can keep track! Thanks.
 
 
 
