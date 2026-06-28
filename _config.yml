@@ -3,11 +3,8 @@ theme: minima
 exclude:
   - bounds/old_bounds/README.md
 
-github:
-  repository_url: https://github.com/bradkav/PBHbounds
-
 header_pages:
-  - pages/overview.md
+  - overview.md
   - bounds/bounds.md
   - updates.md
   - papers.md
@@ -18,3 +15,7 @@ titles_from_headings:
   enabled:     true
   strip_title: true
   collections: true 
+  
+author:
+  name: Bradley J. Kavanagh
+  email: bradkav@gmail.com
