@@ -59,10 +59,10 @@ If you'd like to add a bound to the repo, there are a few options:
 
 <br>
 
-A list of updates and recently added bounds can be found here: [updates.md](updates.md).
+A list of updates and recently added bounds can be found here: [Updates](pages/updates.md).
 
 {% if site.github %}
-  [Updates](/PBHbounds/updates/)
+  [Updates](/PBHbounds/updates.html)
 {% else %}
   [Updates](updates.md)
 {% endif %}
