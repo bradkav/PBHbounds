@@ -1,0 +1,10 @@
+# This is data from a direct search for GWs in the LIGO-Virgo-Kagra O1+O2+O3+O4a runs (arXiv:2602.12115)
+# Data from https://github.com/gwastro/O4a_subsolar_search/
+# M_pbh [Msun]	f_pbh [%]
+0.1149	2.5536
+0.2297	0.9760
+0.4020	0.5121
+0.5743	0.3610
+0.8041	0.2700
+1.2636	0.1778
+1.3784	0.1678
